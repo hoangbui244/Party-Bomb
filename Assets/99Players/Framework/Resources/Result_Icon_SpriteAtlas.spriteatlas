@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Result_Icon_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: ac38755e34f242789d7d81128884cd54, type: 3}
+    - {fileID: 21300000, guid: eda30eef6459497387847f47994d5fa6, type: 3}
+    - {fileID: 21300000, guid: e398ea78355b4a7d8fa6d112bfd167ae, type: 3}
+    - {fileID: 21300000, guid: 34e47ef01afd45ee8007b2708e036e5f, type: 3}
+    - {fileID: 21300000, guid: 9de1afb1ca424b26a2dcb8d2679ed9c5, type: 3}
+    - {fileID: 21300000, guid: b723b65694994d279f37bd3e546d0db9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 34e47ef01afd45ee8007b2708e036e5f, type: 3}
+  - {fileID: 21300000, guid: 9de1afb1ca424b26a2dcb8d2679ed9c5, type: 3}
+  - {fileID: 21300000, guid: b723b65694994d279f37bd3e546d0db9, type: 3}
+  - {fileID: 21300000, guid: e398ea78355b4a7d8fa6d112bfd167ae, type: 3}
+  - {fileID: 21300000, guid: ac38755e34f242789d7d81128884cd54, type: 3}
+  - {fileID: 21300000, guid: eda30eef6459497387847f47994d5fa6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 5P_result_frame
+  - 2P_result_frame
+  - 4P_result_frame
+  - 1P_result_frame
+  - 6P_result_frame
+  - 3P_result_frame
+  m_RenderDataMap: {}
+  m_Tag: Result_Icon_SpriteAtlas
+  m_IsVariant: 0

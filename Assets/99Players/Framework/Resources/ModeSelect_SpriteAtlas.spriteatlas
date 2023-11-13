@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ModeSelect_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 1e901cc4278d49ffab2562d6529e7545, type: 3}
+    - {fileID: 21300000, guid: 40e037bc3902465ea007068051c0593b, type: 3}
+    - {fileID: 21300000, guid: 7c862a27b2ca4c5ea2b73fd919c5cd88, type: 3}
+    - {fileID: 21300000, guid: 3ed48fe089554feeab05ff081dc96453, type: 3}
+    - {fileID: 21300000, guid: caa1dc9b387343a49d26c7574f726b88, type: 3}
+    - {fileID: 21300000, guid: 336bc3a4f0794e73a571fc7779d08756, type: 3}
+    - {fileID: 21300000, guid: 09705747bc4248c0b80c736388482d51, type: 3}
+    - {fileID: 21300000, guid: 2912f7690d844a6284cc6058743db2ab, type: 3}
+    - {fileID: 21300000, guid: 578cbbe9d07447ffbc86518ef777427d, type: 3}
+    - {fileID: 21300000, guid: 81b915df5d2f47e3b4ab311f0508f314, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3ed48fe089554feeab05ff081dc96453, type: 3}
+  - {fileID: 21300000, guid: 336bc3a4f0794e73a571fc7779d08756, type: 3}
+  - {fileID: 21300000, guid: 1e901cc4278d49ffab2562d6529e7545, type: 3}
+  - {fileID: 21300000, guid: 7c862a27b2ca4c5ea2b73fd919c5cd88, type: 3}
+  - {fileID: 21300000, guid: 09705747bc4248c0b80c736388482d51, type: 3}
+  - {fileID: 21300000, guid: 2912f7690d844a6284cc6058743db2ab, type: 3}
+  - {fileID: 21300000, guid: 578cbbe9d07447ffbc86518ef777427d, type: 3}
+  - {fileID: 21300000, guid: caa1dc9b387343a49d26c7574f726b88, type: 3}
+  - {fileID: 21300000, guid: 40e037bc3902465ea007068051c0593b, type: 3}
+  - {fileID: 21300000, guid: 81b915df5d2f47e3b4ab311f0508f314, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - en_explanation_party_01
+  - _free_button_jp
+  - _party_button_jp
+  - en_explanation_party_00
+  - en_party_button_jp
+  - en_free_button_jp
+  - en_explanation_free
+  - _explanation_party_01
+  - _explanation_free
+  - _explanation_party_00
+  m_RenderDataMap: {}
+  m_Tag: ModeSelect_SpriteAtlas
+  m_IsVariant: 0

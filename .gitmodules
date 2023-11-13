@@ -1,0 +1,30 @@
+[submodule "Assets/External"]
+	path = Assets/External
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/external.git
+[submodule "Assets/Plugins"]
+	path = Assets/Plugins
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/plugins.git
+[submodule "Assets/Standard Assets"]
+	path = Assets/Standard Assets
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/standard-assets.git
+[submodule "Assets/TextMesh Pro"]
+	path = Assets/TextMesh Pro
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/textmesh-pro.git
+[submodule "Assets/99Players/Framework"]
+	path = Assets/99Players/Framework
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/framework.git
+[submodule "Assets/99Players/Data"]
+	path = Assets/99Players/Data
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/data.git
+[submodule "Assets/99Players/Data2D"]
+	path = Assets/99Players/Data2D
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/data-2d.git
+[submodule "ProjectSettings"]
+	path = ProjectSettings
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/projectsettings
+[submodule "Packages"]
+	path = Packages
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-3d/modules/packages
+[submodule "Assets/99Players/Games2D/Bomberman"]
+	path = Assets/99Players/Games2D/Bomberman
+	url = http://g.hiddens.link:8929/99players.io/projects/99-party-2d/mini-games/bomberman.git

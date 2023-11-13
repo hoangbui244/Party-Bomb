@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StandingPicture_Ituki_SA
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: f046a60c94dc4ebd89e4a499886f3313, type: 3}
+    - {fileID: 21300000, guid: 477dc5795b2e4c51b251d86c629b9783, type: 3}
+    - {fileID: 21300000, guid: 45cf7736c32c4702b2b8b7fc501e8077, type: 3}
+    - {fileID: 21300000, guid: 90bf57b317ec4a74a7079faaf6410924, type: 3}
+    - {fileID: 21300000, guid: be9a87d7d0e0490fb4ff8c103a6d80a0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 90bf57b317ec4a74a7079faaf6410924, type: 3}
+  - {fileID: 21300000, guid: 45cf7736c32c4702b2b8b7fc501e8077, type: 3}
+  - {fileID: 21300000, guid: be9a87d7d0e0490fb4ff8c103a6d80a0, type: 3}
+  - {fileID: 21300000, guid: 477dc5795b2e4c51b251d86c629b9783, type: 3}
+  - {fileID: 21300000, guid: f046a60c94dc4ebd89e4a499886f3313, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - itsuki_sad_b
+  - itsuki_sad_a
+  - itsuki_normal_a
+  - itsuki_happy_b
+  - itsuki_happy_a
+  m_RenderDataMap: {}
+  m_Tag: StandingPicture_Ituki_SA
+  m_IsVariant: 0

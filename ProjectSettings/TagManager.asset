@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NoHit
+  - Field
+  - Ball
+  - HorizontalWall
+  - VerticalWall
+  - CharaWall
+  - Character
+  - GoalHoop
+  - Goal
+  - GoalBarrier
+  - Object
+  - Backboard
+  - GoalNet
+  - Floor
+  - Airplane
+  - School
+  - Failure
+  - DownSpeedRoad
+  - RubberGun_Target
+  - Bowling_Pin
+  - Bowling_Gutter
+  - Bowling_Lane
+  - Bowling_Ball
+  - Bowling_Hole
+  - CheckPoint
+  - HoledIcePlate
+  - CheckPoint_Player0
+  - CheckPoint_Player1
+  - CheckPoint_Player2
+  - CheckPoint_Player3
+  - UphillStart
+  - DownhillStart
+  - UphillEnd
+  - DownhillEnd
+  - Water
+  - Ninja
+  - Box
+  - Coin
+  - PenaltyArea
+  - Goalpost
+  - Golf_Tree
+  - AiPoint
+  - ActionPoint
+  - Net
+  - Antenna
+  - Wall
+  - Missile
+  - Item
+  - BulletMachinGun
+  - Explode
+  - Grenade
+  - BulletCharacMissile
+  - BulletSolider
+  - BulletTankBunker
+  - Mask
+  - Prison
+  - Obstacle
+  - OneSideObstacle
+  - EnemySolider
+  - TankBunker
+  - Comrade
+  - RootParent
+  - Tank
+  - Boat
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Collision_Obj_1
+  - Collision_Obj_2
+  - Collision_Obj_3
+  - Collision_Obj_4
+  - Collision_Obj_None
+  - Keeper
+  - InvisibleChara
+  - Enemy
+  - 
+  - CharaWall
+  - BallWall
+  - BackGround
+  - Field
+  - Wall
+  - IgnoreWall
+  - LightChange
+  - HitCharacterDefaultOnly
+  - Goal
+  - HitDefaultOnly
+  - HitFieldOnly
+  - Ball
+  - NoHit
+  - Character
+  - HitCharacterOnly
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Effect
+    uniqueID: 2752028351
+    locked: 0
+  - name: ResultBackGround
+    uniqueID: 4152149595
+    locked: 0
+  - name: ResultBalloon
+    uniqueID: 2474079819
+    locked: 0
+  - name: Result
+    uniqueID: 3368532517
+    locked: 0
+  - name: InFront
+    uniqueID: 409690845
+    locked: 0
+  - name: Setting
+    uniqueID: 1026842651
+    locked: 0
+  - name: CommonDialog
+    uniqueID: 2538757127
+    locked: 0

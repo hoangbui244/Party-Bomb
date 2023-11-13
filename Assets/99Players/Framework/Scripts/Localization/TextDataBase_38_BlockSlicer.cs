@@ -1,0 +1,4 @@
+﻿[ExcelAsset]
+public class TextDataBase_38_BlockSlicer : TextDataBaseItems
+{
+}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217e1235d32ce462e6b959e37e804318, type: 3}
+  m_Name: "TextDataBase_12_ClimbBlock_EN"
+  m_EditorClassIdentifier: 
+  Entities:
+  - id: 0
+    text: "Move"
+  - id: 1
+    text: "Jump"
+  - id: 2
+    text: 
+  - id: 3
+    text: 
+  - id: 4
+    text: 
+  - id: 5
+    text: 
+  - id: 6
+    text: 
+  - id: 7
+    text: 
+  - id: 8
+    text: 
+  - id: 9
+    text: 
+  - id: 10
+    text: 
+  - id: 11
+    text: 
+  - id: 12
+    text: 
+  - id: 13
+    text: 
+  - id: 14
+    text: 
+  - id: 15
+    text: 
+  - id: 16
+    text: 
+  - id: 17
+    text: 
+  - id: 18
+    text: 
+  - id: 19
+    text: 
+  - id: 20
+    text: 
+  - id: 21
+    text: 

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas_DLC_Menu
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 7ecf7cbc47ff40b38aff9b22cc9569b8, type: 3}
+    - {fileID: 21300000, guid: d2ec362353d640b68751f01728aba07c, type: 3}
+    - {fileID: 21300000, guid: 7aaf57c356c74d5a8c83b89b91950b29, type: 3}
+    - {fileID: 21300000, guid: e60d19d8665d455ca8bf8aa69e974308, type: 3}
+    - {fileID: 21300000, guid: 9c0286d3e7ca42848933c3792a297d82, type: 3}
+    - {fileID: 21300000, guid: 175a44aa1282420386c3beba79bc0062, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d2ec362353d640b68751f01728aba07c, type: 3}
+  - {fileID: 21300000, guid: 7aaf57c356c74d5a8c83b89b91950b29, type: 3}
+  - {fileID: 21300000, guid: 9c0286d3e7ca42848933c3792a297d82, type: 3}
+  - {fileID: 21300000, guid: e60d19d8665d455ca8bf8aa69e974308, type: 3}
+  - {fileID: 21300000, guid: 175a44aa1282420386c3beba79bc0062, type: 3}
+  - {fileID: 21300000, guid: 7ecf7cbc47ff40b38aff9b22cc9569b8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - en_release_sentence
+  - _nintendo_eshop
+  - en_dlc_Introduction
+  - en_nintendo_eshop
+  - _dlc_Introduction
+  - _release_sentence
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas_DLC_Menu
+  m_IsVariant: 0

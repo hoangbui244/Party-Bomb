@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas_GameSelect_DLC
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 91cd440cbb984cdca83b6206b71e13d9, type: 3}
+    - {fileID: 21300000, guid: 292f632de2df46859d1c98f9f64461a3, type: 3}
+    - {fileID: 21300000, guid: 260336a08e074eef89ff92347cee05ab, type: 3}
+    - {fileID: 21300000, guid: c518bca96fb64449825699aac6a51549, type: 3}
+    - {fileID: 21300000, guid: e695d469b88148df88a55a537310bd79, type: 3}
+    - {fileID: 21300000, guid: ba1d18762a234b5eac4bd77e8bd9607a, type: 3}
+    - {fileID: 21300000, guid: dd92c681ca4141c1ba21733aa521a433, type: 3}
+    - {fileID: 21300000, guid: b35f20699b924809999a52737a1c151f, type: 3}
+    - {fileID: 21300000, guid: 5441de08565a4d2687f3f7d2490d319f, type: 3}
+    - {fileID: 21300000, guid: dc3d35c824b949cf953a45b845ef2f8c, type: 3}
+    - {fileID: 21300000, guid: 89a817449eed4ec789b573e34ec44ade, type: 3}
+    - {fileID: 21300000, guid: bc682b7272454e5281c832aa724cd678, type: 3}
+    - {fileID: 21300000, guid: e9d616c6df214f319dfd6d09ae99c78d, type: 3}
+    - {fileID: 21300000, guid: 372f3269acb047848da37b9f424b5ab7, type: 3}
+    - {fileID: 21300000, guid: 4927f633ad50459ea81dd8e966cb9269, type: 3}
+    - {fileID: 21300000, guid: a04596946365418291bee607cd52af74, type: 3}
+    - {fileID: 21300000, guid: b8918145a3f44dc888193f009bc9ab44, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 260336a08e074eef89ff92347cee05ab, type: 3}
+  - {fileID: 21300000, guid: dd92c681ca4141c1ba21733aa521a433, type: 3}
+  - {fileID: 21300000, guid: bc682b7272454e5281c832aa724cd678, type: 3}
+  - {fileID: 21300000, guid: 4927f633ad50459ea81dd8e966cb9269, type: 3}
+  - {fileID: 21300000, guid: 89a817449eed4ec789b573e34ec44ade, type: 3}
+  - {fileID: 21300000, guid: a04596946365418291bee607cd52af74, type: 3}
+  - {fileID: 21300000, guid: b8918145a3f44dc888193f009bc9ab44, type: 3}
+  - {fileID: 21300000, guid: ba1d18762a234b5eac4bd77e8bd9607a, type: 3}
+  - {fileID: 21300000, guid: e9d616c6df214f319dfd6d09ae99c78d, type: 3}
+  - {fileID: 21300000, guid: 5441de08565a4d2687f3f7d2490d319f, type: 3}
+  - {fileID: 21300000, guid: dc3d35c824b949cf953a45b845ef2f8c, type: 3}
+  - {fileID: 21300000, guid: b35f20699b924809999a52737a1c151f, type: 3}
+  - {fileID: 21300000, guid: 372f3269acb047848da37b9f424b5ab7, type: 3}
+  - {fileID: 21300000, guid: e695d469b88148df88a55a537310bd79, type: 3}
+  - {fileID: 21300000, guid: c518bca96fb64449825699aac6a51549, type: 3}
+  - {fileID: 21300000, guid: 91cd440cbb984cdca83b6206b71e13d9, type: 3}
+  - {fileID: 21300000, guid: 292f632de2df46859d1c98f9f64461a3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - en_dlc_additional_events_second_edition_00
+  - icon_shadow_3
+  - all_icon_shadow_29game_dlc
+  - party_explanation_05
+  - _dlc_additional_events_01
+  - all_icon_shadow_38game_dlc
+  - _dlc_additional_events_00
+  - en_dlc_additional_events_second_edition_01
+  - en_dlc_additional_events_00
+  - all_empty_icon_shadow_15game_dlc
+  - en_dlc_additional_events_01
+  - all_empty_icon_shadow_10game
+  - icon_shadow
+  - icon_shadow_2
+  - party_explanation_03
+  - all_empty_icon_shadow_25game_dlc
+  - party_explanation_04
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas_GameSelect_DLC
+  m_IsVariant: 0

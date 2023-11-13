@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41b91995673a17b7b234ce3eda01c3c, type: 3}
+  m_Name: "Shuriken_ReticleConfig"
+  m_EditorClassIdentifier: 
+  reticleSpeed: 450
+  minReticlePosition: {x: 54.6, y: 185}
+  maxReticlePosition: {x: 1865.4, y: 848}
+  aimStickDistanceThreshold: 8
+  easyCpuTakeTargetsCount: 6
+  normalCpuTakeTargetsCount: 5
+  hardCpuTakeTargetsCount: 4
+  easyAimVectorSpeed: 2
+  normalAimVectorSpeed: 3
+  hardAimVectorSpeed: 3
+  colors:
+  - {r: 0.3372549, g: 0.8862745, b: 0.1686275, a: 1}
+  - {r: 1, g: 0.3058824, b: 0.3764706, a: 1}
+  - {r: 0.3568628, g: 0.6745098, b: 1, a: 1}
+  - {r: 1, g: 0.8823529, b: 0.04705882, a: 1}
+  - {r: 0.9113052, g: 0.04705882, b: 1, a: 1}
+  - {r: 0.04705882, g: 1, b: 0.9231468, a: 1}
+  - {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  - {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  showCpuReticle: 1

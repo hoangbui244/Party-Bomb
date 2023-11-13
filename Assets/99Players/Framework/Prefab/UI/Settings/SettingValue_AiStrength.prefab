@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2637492179517169478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 502904275961104224, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 10a55b73ae271484f97fa4f1919d4d0b, type: 3}
+    - target: {fileID: 4700885549203466239, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885549203466239, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885549203466239, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885549203466239, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885549924885534, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_Name
+      value: SettingValue_AiStrength
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885551787162304, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_text
+      value: CPU Strength
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885551787162314, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: m_text
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885551787162790, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: topNo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885551787162790, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: downNo
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885551787162790, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: leftNo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4700885551787162790, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: rightNo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115082388297883263, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: mTerm
+      value: Text_Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115082388297883263, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+--- !u!1 &7324726190889500187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4700885549924884829, guid: eccfa5f337e182a4da45eb667302e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2637492179517169478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7163544096185439958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7324726190889500187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: Text_CpuStrength
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  AllowParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 0}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_TextMeshPro_Label

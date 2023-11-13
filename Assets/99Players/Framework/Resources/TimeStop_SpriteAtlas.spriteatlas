@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TimeStop_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: bc2f5e6484cc4039aeff3cc896e209ad, type: 3}
+    - {fileID: 21300000, guid: ac9e0b7a55d54781a11ce18745a94a73, type: 3}
+    - {fileID: 21300000, guid: 6d79c612fd704ff58ff8af2397c75d2b, type: 3}
+    - {fileID: 21300000, guid: d91247c9cd4f4550b322fe58c289def7, type: 3}
+    - {fileID: 21300000, guid: 085a60d98a374d84ad3c6093f972d743, type: 3}
+    - {fileID: 21300000, guid: 3a9e3aa783774ef9b209ed661c361c82, type: 3}
+    - {fileID: 21300000, guid: a0136bd12af44337832165dfdb39488b, type: 3}
+    - {fileID: 21300000, guid: ad02fa0c86a344d6812c47d32103ebad, type: 3}
+    - {fileID: 21300000, guid: 42a049b5cd30450ba9e5e0f3808c4f7e, type: 3}
+    - {fileID: 21300000, guid: dbe444abfefb4ef089f4a51ed093d934, type: 3}
+    - {fileID: 21300000, guid: 1c8057103519453a850bb059eb21987c, type: 3}
+    - {fileID: 21300000, guid: 1aa697bd2a9d441398bd2ec079110f2b, type: 3}
+    - {fileID: 21300000, guid: 0be99e8021514260941a5250dfb9ad59, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1c8057103519453a850bb059eb21987c, type: 3}
+  - {fileID: 21300000, guid: 0be99e8021514260941a5250dfb9ad59, type: 3}
+  - {fileID: 21300000, guid: a0136bd12af44337832165dfdb39488b, type: 3}
+  - {fileID: 21300000, guid: 6d79c612fd704ff58ff8af2397c75d2b, type: 3}
+  - {fileID: 21300000, guid: bc2f5e6484cc4039aeff3cc896e209ad, type: 3}
+  - {fileID: 21300000, guid: 42a049b5cd30450ba9e5e0f3808c4f7e, type: 3}
+  - {fileID: 21300000, guid: 3a9e3aa783774ef9b209ed661c361c82, type: 3}
+  - {fileID: 21300000, guid: d91247c9cd4f4550b322fe58c289def7, type: 3}
+  - {fileID: 21300000, guid: 085a60d98a374d84ad3c6093f972d743, type: 3}
+  - {fileID: 21300000, guid: ac9e0b7a55d54781a11ce18745a94a73, type: 3}
+  - {fileID: 21300000, guid: dbe444abfefb4ef089f4a51ed093d934, type: 3}
+  - {fileID: 21300000, guid: ad02fa0c86a344d6812c47d32103ebad, type: 3}
+  - {fileID: 21300000, guid: 1aa697bd2a9d441398bd2ec079110f2b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tex_digitalNumber_1
+  - tex_digitalNumber_2
+  - tex_digitalNumber_3
+  - tex_dot_base
+  - tex_digitalNumber_base
+  - tex_dot
+  - tex_digitalNumber_9
+  - tex_digitalNumber_0
+  - tex_digitalNumber_5
+  - tex_digitalNumber_7
+  - tex_digitalNumber_4
+  - tex_digitalNumber_6
+  - tex_digitalNumber_8
+  m_RenderDataMap: {}
+  m_Tag: TimeStop_SpriteAtlas
+  m_IsVariant: 0

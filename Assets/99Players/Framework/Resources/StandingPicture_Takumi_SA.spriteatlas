@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StandingPicture_Takumi_SA
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: f601946c8c7c4092adf7459d7d13998a, type: 3}
+    - {fileID: 21300000, guid: d117e94a151544859fb04012948d37b6, type: 3}
+    - {fileID: 21300000, guid: 009106ad14344ea8b263c60fa0c18fa8, type: 3}
+    - {fileID: 21300000, guid: 23b9287e3a7145f7b9e7402b698dd1ea, type: 3}
+    - {fileID: 21300000, guid: d1377fc8d2464420a69ca887a86aceb5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d1377fc8d2464420a69ca887a86aceb5, type: 3}
+  - {fileID: 21300000, guid: d117e94a151544859fb04012948d37b6, type: 3}
+  - {fileID: 21300000, guid: f601946c8c7c4092adf7459d7d13998a, type: 3}
+  - {fileID: 21300000, guid: 009106ad14344ea8b263c60fa0c18fa8, type: 3}
+  - {fileID: 21300000, guid: 23b9287e3a7145f7b9e7402b698dd1ea, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - takumi_happy_b
+  - takumi_happy_a
+  - takumi_normal_a
+  - takumi_sad_a
+  - takumi_sad_b
+  m_RenderDataMap: {}
+  m_Tag: StandingPicture_Takumi_SA
+  m_IsVariant: 0

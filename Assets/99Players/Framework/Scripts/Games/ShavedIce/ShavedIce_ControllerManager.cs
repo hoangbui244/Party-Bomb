@@ -1,0 +1,298 @@
+﻿using GamepadInput;
+using UnityEngine;
+public class ShavedIce_ControllerManager : SingletonCustom<ShavedIce_ControllerManager>
+{
+	public enum ButtonPushType
+	{
+		DOWN,
+		HOLD,
+		UP
+	}
+	public enum StickType
+	{
+		R,
+		L
+	}
+	public enum StickDirType
+	{
+		UP,
+		RIGHT,
+		LEFT,
+		DOWN
+	}
+	public enum CrossKeyType
+	{
+		UP,
+		RIGHT,
+		LEFT,
+		DOWN
+	}
+	private bool isHoldInputIntervalMode;
+	private const int MAX_PLAYER_NUM = 4;
+	private float[] intervalInputHold_LStick = new float[4];
+	private float[] intervalInputHold_RStick = new float[4];
+	private float[] intervalInputHold_CrossKey = new float[4];
+	private const float HOLD_INPUT_INTERVAL = 0.2f;
+	public bool IsPushButton_A(int _userNo, ButtonPushType _buttonPushType)
+	{
+		return ProcessPushButton_A(_userNo, _buttonPushType);
+	}
+	public bool IsPushButton_X(int _userNo, ButtonPushType _buttonPushType)
+	{
+		return ProcessPushButton_X(_userNo, _buttonPushType);
+	}
+	public bool IsPushButton_Y(int _userNo, ButtonPushType _buttonPushType)
+	{
+		return ProcessPushButton_Y(_userNo, _buttonPushType);
+	}
+	public bool IsPushCrossKey(int _userNo, CrossKeyType _keyType, ButtonPushType _buttonPushType)
+	{
+		if (_buttonPushType == ButtonPushType.HOLD && isHoldInputIntervalMode && ProcessCrossKey(_userNo, _keyType, _buttonPushType))
+		{
+			if (IsReturnInputHold_CrossKey(_userNo))
+			{
+				ContinueInputHold_CrossKey(_userNo);
+				return true;
+			}
+			return false;
+		}
+		if (ProcessCrossKey(_userNo, _keyType, _buttonPushType))
+		{
+			ContinueInputHold_CrossKey(_userNo);
+			return true;
+		}
+		return false;
+	}
+	public bool IsStickTiltDirection(int _userNo, StickType _stickType, StickDirType _stickDirType, float _stickNeutralValue = 0.5f)
+	{
+		Vector3 zero = Vector3.zero;
+		zero = ((_stickType != 0) ? GetStickDir_L(_userNo) : GetStickDir_R(_userNo));
+		if ((_stickDirType == StickDirType.UP && zero.z > _stickNeutralValue) || (_stickDirType == StickDirType.RIGHT && zero.x > _stickNeutralValue) || (_stickDirType == StickDirType.LEFT && zero.x < 0f - _stickNeutralValue) || (_stickDirType == StickDirType.DOWN && zero.z < 0f - _stickNeutralValue))
+		{
+			if (isHoldInputIntervalMode)
+			{
+				if ((_stickType == StickType.R) ? IsReturnInputHold_Stick_R(_userNo) : IsReturnInputHold_Stick_L(_userNo))
+				{
+					if (_stickType == StickType.R)
+					{
+						ContinueInputHold_Stick_R(_userNo);
+					}
+					else
+					{
+						ContinueInputHold_Stick_L(_userNo);
+					}
+					return true;
+				}
+				return false;
+			}
+			return true;
+		}
+		return false;
+	}
+	public bool IsPushButton_StickR(int _userNo, ButtonPushType _buttonPushType)
+	{
+		return ProcessPushButton_StickR(_userNo, _buttonPushType);
+	}
+	public bool IsPushButton_StickL(int _userNo, ButtonPushType _buttonPushType)
+	{
+		return ProcessPushButton_StickL(_userNo, _buttonPushType);
+	}
+	public bool IsStickTilt(int _userNo, StickType _stickType)
+	{
+		return GetStickTilt(_userNo, _stickType) > 0.01f;
+	}
+	private bool ProcessPushButton_A(int _userNo, ButtonPushType _type)
+	{
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		switch (_type)
+		{
+		case ButtonPushType.DOWN:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonDown(playerIdx, SatGamePad.Button.A);
+		case ButtonPushType.HOLD:
+			return SingletonCustom<JoyConManager>.Instance.GetButton(playerIdx, SatGamePad.Button.A);
+		case ButtonPushType.UP:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonUp(playerIdx, SatGamePad.Button.A);
+		default:
+			return false;
+		}
+	}
+	private bool ProcessPushButton_X(int _userNo, ButtonPushType _type)
+	{
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		switch (_type)
+		{
+		case ButtonPushType.DOWN:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonDown(playerIdx, SatGamePad.Button.X);
+		case ButtonPushType.HOLD:
+			return SingletonCustom<JoyConManager>.Instance.GetButton(playerIdx, SatGamePad.Button.X);
+		case ButtonPushType.UP:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonUp(playerIdx, SatGamePad.Button.X);
+		default:
+			return false;
+		}
+	}
+	private bool ProcessPushButton_Y(int _userNo, ButtonPushType _type)
+	{
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		switch (_type)
+		{
+		case ButtonPushType.DOWN:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonDown(playerIdx, SatGamePad.Button.Y);
+		case ButtonPushType.HOLD:
+			return SingletonCustom<JoyConManager>.Instance.GetButton(playerIdx, SatGamePad.Button.Y);
+		case ButtonPushType.UP:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonUp(playerIdx, SatGamePad.Button.Y);
+		default:
+			return false;
+		}
+	}
+	public Vector3 GetStickDir_R(int _userNo)
+	{
+		float num = 0f;
+		float num2 = 0f;
+		Vector3 mVector3Zero = CalcManager.mVector3Zero;
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		JoyConManager.AXIS_INPUT axisInput = SingletonCustom<JoyConManager>.Instance.GetAxisInput(playerIdx);
+		num = axisInput.Stick_R.x;
+		num2 = axisInput.Stick_R.y;
+		return new Vector3(num, 0f, num2);
+	}
+	public Vector3 GetStickDir_L(int _userNo)
+	{
+		float num = 0f;
+		float num2 = 0f;
+		Vector3 mVector3Zero = CalcManager.mVector3Zero;
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		JoyConManager.AXIS_INPUT axisInput = SingletonCustom<JoyConManager>.Instance.GetAxisInput(playerIdx);
+		num = axisInput.Stick_L.x;
+		num2 = axisInput.Stick_L.y;
+		return new Vector3(num, 0f, num2);
+	}
+	private bool ProcessPushButton_StickR(int _userNo, ButtonPushType _type)
+	{
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		switch (_type)
+		{
+		case ButtonPushType.DOWN:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonDown(playerIdx, SatGamePad.Button.RightStick);
+		case ButtonPushType.HOLD:
+			return SingletonCustom<JoyConManager>.Instance.GetButton(playerIdx, SatGamePad.Button.RightStick);
+		case ButtonPushType.UP:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonUp(playerIdx, SatGamePad.Button.RightStick);
+		default:
+			return false;
+		}
+	}
+	private bool ProcessPushButton_StickL(int _userNo, ButtonPushType _type)
+	{
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		switch (_type)
+		{
+		case ButtonPushType.DOWN:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonDown(playerIdx, SatGamePad.Button.LeftStick);
+		case ButtonPushType.HOLD:
+			return SingletonCustom<JoyConManager>.Instance.GetButton(playerIdx, SatGamePad.Button.LeftStick);
+		case ButtonPushType.UP:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonUp(playerIdx, SatGamePad.Button.LeftStick);
+		default:
+			return false;
+		}
+	}
+	public float GetStickTilt(int _userNo, StickType _stickType)
+	{
+		if (_stickType == StickType.L)
+		{
+			return GetStickDir_L(_userNo).magnitude;
+		}
+		return GetStickDir_R(_userNo).magnitude;
+	}
+	private bool ProcessCrossKey(int _userNo, CrossKeyType _keyType, ButtonPushType _type)
+	{
+		SatGamePad.Button button = SatGamePad.Button.A;
+		int playerIdx = (!SingletonCustom<JoyConManager>.Instance.IsSingleMode()) ? _userNo : 0;
+		switch (_keyType)
+		{
+		case CrossKeyType.UP:
+			button = SatGamePad.Button.Dpad_Up;
+			break;
+		case CrossKeyType.RIGHT:
+			button = SatGamePad.Button.Dpad_Right;
+			break;
+		case CrossKeyType.LEFT:
+			button = SatGamePad.Button.Dpad_Left;
+			break;
+		case CrossKeyType.DOWN:
+			button = SatGamePad.Button.Dpad_Down;
+			break;
+		}
+		switch (_type)
+		{
+		case ButtonPushType.DOWN:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonDown(playerIdx, button);
+		case ButtonPushType.HOLD:
+			return SingletonCustom<JoyConManager>.Instance.GetButton(playerIdx, button);
+		case ButtonPushType.UP:
+			return SingletonCustom<JoyConManager>.Instance.GetButtonUp(playerIdx, button);
+		default:
+			return false;
+		}
+	}
+	public void SetttingHoldInputIntervalMode()
+	{
+		isHoldInputIntervalMode = true;
+	}
+	public void ReleaseHoldInputIntervalMode()
+	{
+		isHoldInputIntervalMode = false;
+	}
+	private void Update()
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			if (intervalInputHold_LStick[i] > 0f)
+			{
+				intervalInputHold_LStick[i] -= Time.deltaTime;
+			}
+			if (intervalInputHold_RStick[i] > 0f)
+			{
+				intervalInputHold_RStick[i] -= Time.deltaTime;
+			}
+			if (intervalInputHold_CrossKey[i] > 0f)
+			{
+				intervalInputHold_CrossKey[i] -= Time.deltaTime;
+			}
+		}
+	}
+	private void ContinueInputHold_Stick_L(int _userNo)
+	{
+		intervalInputHold_LStick[_userNo] = 0.2f;
+	}
+	private void ContinueInputHold_Stick_R(int _userNo)
+	{
+		intervalInputHold_RStick[_userNo] = 0.2f;
+	}
+	private void ContinueInputHold_CrossKey(int _userNo)
+	{
+		intervalInputHold_CrossKey[_userNo] = 0.2f;
+	}
+	private void ResetInputHold_Stick_L(int _userNo)
+	{
+		intervalInputHold_LStick[_userNo] = 0f;
+	}
+	private void ResetInputHold_Stick_R(int _userNo)
+	{
+		intervalInputHold_RStick[_userNo] = 0f;
+	}
+	private bool IsReturnInputHold_Stick_L(int _userNo)
+	{
+		return intervalInputHold_LStick[_userNo] <= 0f;
+	}
+	private bool IsReturnInputHold_Stick_R(int _userNo)
+	{
+		return intervalInputHold_RStick[_userNo] <= 0f;
+	}
+	private bool IsReturnInputHold_CrossKey(int _userNo)
+	{
+		return intervalInputHold_CrossKey[_userNo] <= 0f;
+	}
+}

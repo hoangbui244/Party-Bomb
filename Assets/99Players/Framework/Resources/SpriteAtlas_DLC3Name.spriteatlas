@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas_DLC3Name
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 245aa3e115bd40f392995c057597a8cd, type: 3}
+    - {fileID: 21300000, guid: ab1b2db275a14d4faeff1ec4956d11e7, type: 3}
+    - {fileID: 21300000, guid: cf015027bc0e42808388265816cc0c72, type: 3}
+    - {fileID: 21300000, guid: 88f28dbeb9904f3bb995c189b6786c02, type: 3}
+    - {fileID: 21300000, guid: c75c7371c1d04af9bb33350e5f269044, type: 3}
+    - {fileID: 21300000, guid: 94a2aff6897b4248b22d6a3deaf60c60, type: 3}
+    - {fileID: 21300000, guid: b3eade8550884013a74f628c1ae60c86, type: 3}
+    - {fileID: 21300000, guid: fa861cb4f7364bd68a1b17a01d8831ea, type: 3}
+    - {fileID: 21300000, guid: e113f9a2f0b04544b2375fd903afc6ec, type: 3}
+    - {fileID: 21300000, guid: 874d0eac7808404db42ea11584777068, type: 3}
+    - {fileID: 21300000, guid: 891110c4f10b4be18e4b457193ae6d38, type: 3}
+    - {fileID: 21300000, guid: c22e910d77f140778d452403043874f8, type: 3}
+    - {fileID: 21300000, guid: 3d3a19fe28574b818fbeb34cc773adee, type: 3}
+    - {fileID: 21300000, guid: feb9fdce6598489ea07b38cf42e26ec1, type: 3}
+    - {fileID: 21300000, guid: 0a8e0c3cff5d49f6b0236f2210668ab0, type: 3}
+    - {fileID: 21300000, guid: 6e5d4607bfe245c296da54d11f4b56e1, type: 3}
+    - {fileID: 21300000, guid: 5b8b6559ead64edea609483071ce02a2, type: 3}
+    - {fileID: 21300000, guid: a6368c1f5871432db127f0ccb6c2e99d, type: 3}
+    - {fileID: 21300000, guid: 258868511749498cbf4f749705a1f1d9, type: 3}
+    - {fileID: 21300000, guid: a13252ddd59949589e6197fd56be25b6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 258868511749498cbf4f749705a1f1d9, type: 3}
+  - {fileID: 21300000, guid: c75c7371c1d04af9bb33350e5f269044, type: 3}
+  - {fileID: 21300000, guid: 245aa3e115bd40f392995c057597a8cd, type: 3}
+  - {fileID: 21300000, guid: e113f9a2f0b04544b2375fd903afc6ec, type: 3}
+  - {fileID: 21300000, guid: ab1b2db275a14d4faeff1ec4956d11e7, type: 3}
+  - {fileID: 21300000, guid: fa861cb4f7364bd68a1b17a01d8831ea, type: 3}
+  - {fileID: 21300000, guid: 891110c4f10b4be18e4b457193ae6d38, type: 3}
+  - {fileID: 21300000, guid: b3eade8550884013a74f628c1ae60c86, type: 3}
+  - {fileID: 21300000, guid: 94a2aff6897b4248b22d6a3deaf60c60, type: 3}
+  - {fileID: 21300000, guid: 6e5d4607bfe245c296da54d11f4b56e1, type: 3}
+  - {fileID: 21300000, guid: cf015027bc0e42808388265816cc0c72, type: 3}
+  - {fileID: 21300000, guid: 5b8b6559ead64edea609483071ce02a2, type: 3}
+  - {fileID: 21300000, guid: 0a8e0c3cff5d49f6b0236f2210668ab0, type: 3}
+  - {fileID: 21300000, guid: 874d0eac7808404db42ea11584777068, type: 3}
+  - {fileID: 21300000, guid: c22e910d77f140778d452403043874f8, type: 3}
+  - {fileID: 21300000, guid: a13252ddd59949589e6197fd56be25b6, type: 3}
+  - {fileID: 21300000, guid: 88f28dbeb9904f3bb995c189b6786c02, type: 3}
+  - {fileID: 21300000, guid: feb9fdce6598489ea07b38cf42e26ec1, type: 3}
+  - {fileID: 21300000, guid: 3d3a19fe28574b818fbeb34cc773adee, type: 3}
+  - {fileID: 21300000, guid: a6368c1f5871432db127f0ccb6c2e99d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - en_name_CoinDrop
+  - en_name_ClimbWall
+  - _name_ColorfulShoot
+  - en_name_HomeRunDerby
+  - en_name_JanjanFishing
+  - en_name_HundredChallenge
+  - en_name_AirBalloon
+  - _name_HundredChallenge
+  - _name_ClimbWall
+  - en_name_TreasureCatcher
+  - _name_FlyingHammer
+  - _name_TreasureCatcher
+  - en_name_ColorfulShoot
+  - _name_HomeRunDerby
+  - _name_CoinDrop
+  - _name_AirBalloon
+  - en_name_FlyingHammer
+  - en_name_EveryoneKeeper
+  - _name_EveryoneKeeper
+  - _name_JanjanFishing
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas_DLC3Name
+  m_IsVariant: 0

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 9efed40eeab2415ab7cd680e8d758b09, type: 3}
+    - {fileID: 21300000, guid: ca603a363a6e4ba38f88180604937888, type: 3}
+    - {fileID: 21300000, guid: f24a422d7f67459d8aa54e2501bd6150, type: 3}
+    - {fileID: 21300000, guid: ccdecf8321aa41b8b7d7733de754fee7, type: 3}
+    - {fileID: 21300000, guid: a62219be35a6450d82a019982639d2ab, type: 3}
+    - {fileID: 21300000, guid: d711cb9f15af4b8dbef3a5a5a05c8afd, type: 3}
+    - {fileID: 21300000, guid: f79011b082d24343be4d4db25540afc8, type: 3}
+    - {fileID: 21300000, guid: a5fa0d0986ce4b6c857ace95e2e05475, type: 3}
+    - {fileID: 21300000, guid: 1742deaf664c4f15a16fbd1c67987391, type: 3}
+    - {fileID: 21300000, guid: 94c2735baebb470a9bc7e3807e80970b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f79011b082d24343be4d4db25540afc8, type: 3}
+  - {fileID: 21300000, guid: ccdecf8321aa41b8b7d7733de754fee7, type: 3}
+  - {fileID: 21300000, guid: ca603a363a6e4ba38f88180604937888, type: 3}
+  - {fileID: 21300000, guid: a5fa0d0986ce4b6c857ace95e2e05475, type: 3}
+  - {fileID: 21300000, guid: 94c2735baebb470a9bc7e3807e80970b, type: 3}
+  - {fileID: 21300000, guid: f24a422d7f67459d8aa54e2501bd6150, type: 3}
+  - {fileID: 21300000, guid: 9efed40eeab2415ab7cd680e8d758b09, type: 3}
+  - {fileID: 21300000, guid: a62219be35a6450d82a019982639d2ab, type: 3}
+  - {fileID: 21300000, guid: d711cb9f15af4b8dbef3a5a5a05c8afd, type: 3}
+  - {fileID: 21300000, guid: 1742deaf664c4f15a16fbd1c67987391, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - _Hidden_karakuri_01
+  - en_stamina_font
+  - _Hidden_karakuri
+  - _Hidden_karakuri_00
+  - _stamina_gauge_00
+  - _Hidden_explanation
+  - _stamina_gauge_01
+  - _stamina_font
+  - en_Hidden_explanation
+  - oni_face
+  m_RenderDataMap: {}
+  m_Tag: Hidden_SpriteAtlas
+  m_IsVariant: 0

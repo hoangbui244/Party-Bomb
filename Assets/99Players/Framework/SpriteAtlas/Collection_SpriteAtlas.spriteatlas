@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Collection_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 834c98fe9b7b4e71a2765f48bb5510b5, type: 3}
+    - {fileID: 21300000, guid: d414b454b78242e787b3b0cd2f659a4c, type: 3}
+    - {fileID: 21300000, guid: 4ce2860de4a34f0bba350a54becc15aa, type: 3}
+    - {fileID: 21300000, guid: 5f3bc4c0c8fd47c582aa32d3f92c5c58, type: 3}
+    - {fileID: 21300000, guid: ae6c08b5b1b14585bc0273964b31d057, type: 3}
+    - {fileID: 21300000, guid: 5fe580c4b03748df884dc42de7bc4319, type: 3}
+    - {fileID: 21300000, guid: 509a2bc844d84c5d8cb432e7e3e6b1ac, type: 3}
+    - {fileID: 21300000, guid: c6b7f20e312545d5a0b8b31431ee89a0, type: 3}
+    - {fileID: 21300000, guid: 9461bfeb6daa414c890662e6a07de5df, type: 3}
+    - {fileID: 21300000, guid: 4be6f9f681144dc1ac033275533086e2, type: 3}
+    - {fileID: 21300000, guid: de12c5ed468540f780755edff3e6866f, type: 3}
+    - {fileID: 21300000, guid: 8ecd956aa7eb42cc8ad5ee92adbf9c69, type: 3}
+    - {fileID: 21300000, guid: 86038f766a11487583bc2ea0725000a1, type: 3}
+    - {fileID: 21300000, guid: d396e675debd4755b1434b41da6ca0f3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5f3bc4c0c8fd47c582aa32d3f92c5c58, type: 3}
+  - {fileID: 21300000, guid: d414b454b78242e787b3b0cd2f659a4c, type: 3}
+  - {fileID: 21300000, guid: 5fe580c4b03748df884dc42de7bc4319, type: 3}
+  - {fileID: 21300000, guid: d396e675debd4755b1434b41da6ca0f3, type: 3}
+  - {fileID: 21300000, guid: ae6c08b5b1b14585bc0273964b31d057, type: 3}
+  - {fileID: 21300000, guid: 86038f766a11487583bc2ea0725000a1, type: 3}
+  - {fileID: 21300000, guid: 4be6f9f681144dc1ac033275533086e2, type: 3}
+  - {fileID: 21300000, guid: 509a2bc844d84c5d8cb432e7e3e6b1ac, type: 3}
+  - {fileID: 21300000, guid: 8ecd956aa7eb42cc8ad5ee92adbf9c69, type: 3}
+  - {fileID: 21300000, guid: 9461bfeb6daa414c890662e6a07de5df, type: 3}
+  - {fileID: 21300000, guid: 4ce2860de4a34f0bba350a54becc15aa, type: 3}
+  - {fileID: 21300000, guid: de12c5ed468540f780755edff3e6866f, type: 3}
+  - {fileID: 21300000, guid: c6b7f20e312545d5a0b8b31431ee89a0, type: 3}
+  - {fileID: 21300000, guid: 834c98fe9b7b4e71a2765f48bb5510b5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - coin_get_frame
+  - flag_all_licenses
+  - card_chioce_light
+  - card_explanation_underlay
+  - card_scroll
+  - _card_get_silver
+  - card_chioce
+  - _grandfather_name
+  - card_board
+  - en_grandfather_name
+  - _card_get_copper
+  - page_underlay
+  - _card_get_gold
+  - coin_hole
+  m_RenderDataMap: {}
+  m_Tag: Collection_SpriteAtlas
+  m_IsVariant: 0

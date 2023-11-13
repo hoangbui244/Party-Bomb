@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MikoshiRace_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 1d09ae9abcb9425886c4ca218fa1e2c1, type: 3}
+    - {fileID: 21300000, guid: 9a0076547c374c8790d3aa9562bbbb75, type: 3}
+    - {fileID: 21300000, guid: c529aa2e16604e9097096fb9d02e7cb6, type: 3}
+    - {fileID: 21300000, guid: 61f260eb77524329b57ca0308af24cfc, type: 3}
+    - {fileID: 21300000, guid: bb574eeacc6e430b9cc3768530b11582, type: 3}
+    - {fileID: 21300000, guid: 32d709cf43e248b5af051adb10cf1660, type: 3}
+    - {fileID: 21300000, guid: 1f6d46869b6e4108a9495ee8057085d8, type: 3}
+    - {fileID: 21300000, guid: 54eb905033e04d7fbc1ef123aba12426, type: 3}
+    - {fileID: 21300000, guid: e934b7701a174390ad2ef3eb59fcdb48, type: 3}
+    - {fileID: 21300000, guid: 36ea86bb43754754bfc26ef63e9be7ce, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 54eb905033e04d7fbc1ef123aba12426, type: 3}
+  - {fileID: 21300000, guid: e934b7701a174390ad2ef3eb59fcdb48, type: 3}
+  - {fileID: 21300000, guid: 9a0076547c374c8790d3aa9562bbbb75, type: 3}
+  - {fileID: 21300000, guid: 1f6d46869b6e4108a9495ee8057085d8, type: 3}
+  - {fileID: 21300000, guid: 1d09ae9abcb9425886c4ca218fa1e2c1, type: 3}
+  - {fileID: 21300000, guid: bb574eeacc6e430b9cc3768530b11582, type: 3}
+  - {fileID: 21300000, guid: 36ea86bb43754754bfc26ef63e9be7ce, type: 3}
+  - {fileID: 21300000, guid: 61f260eb77524329b57ca0308af24cfc, type: 3}
+  - {fileID: 21300000, guid: c529aa2e16604e9097096fb9d02e7cb6, type: 3}
+  - {fileID: 21300000, guid: 32d709cf43e248b5af051adb10cf1660, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - map_point_enemy
+  - _font_repeated_hits_01
+  - button_arrow
+  - button_a_01
+  - push_button_1
+  - button_a_00
+  - _font_repeated_hits_00
+  - push_button_0
+  - shake_gauge
+  - map_point_you
+  m_RenderDataMap: {}
+  m_Tag: MikoshiRace_SpriteAtlas
+  m_IsVariant: 0

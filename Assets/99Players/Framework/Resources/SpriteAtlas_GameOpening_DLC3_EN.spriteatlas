@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas_GameOpening_DLC3_EN
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: eef0bf83d76947879e5c646f902e615c, type: 3}
+    - {fileID: 21300000, guid: 108f67f590104c8c9f39b4117631ef3d, type: 3}
+    - {fileID: 21300000, guid: 8afc23a55c4e4e719be632e059981500, type: 3}
+    - {fileID: 21300000, guid: d1bc65b82427476d860b8a5eb7061dfe, type: 3}
+    - {fileID: 21300000, guid: a0c2c3a221084c2c8dbadd0765c64d27, type: 3}
+    - {fileID: 21300000, guid: 06f147f0b63542d5b1fa300a8d2028f7, type: 3}
+    - {fileID: 21300000, guid: 27c4cef6000b44e7a8d2ef54e5615d6e, type: 3}
+    - {fileID: 21300000, guid: 97a7fce281f047ea8d0cf01da8f57db3, type: 3}
+    - {fileID: 21300000, guid: 6964c48cf63542bd85be35f6f87ceab7, type: 3}
+    - {fileID: 21300000, guid: 36b03e14f39244209f8787b11a6bde3e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 06f147f0b63542d5b1fa300a8d2028f7, type: 3}
+  - {fileID: 21300000, guid: a0c2c3a221084c2c8dbadd0765c64d27, type: 3}
+  - {fileID: 21300000, guid: 97a7fce281f047ea8d0cf01da8f57db3, type: 3}
+  - {fileID: 21300000, guid: eef0bf83d76947879e5c646f902e615c, type: 3}
+  - {fileID: 21300000, guid: 36b03e14f39244209f8787b11a6bde3e, type: 3}
+  - {fileID: 21300000, guid: 8afc23a55c4e4e719be632e059981500, type: 3}
+  - {fileID: 21300000, guid: 108f67f590104c8c9f39b4117631ef3d, type: 3}
+  - {fileID: 21300000, guid: 27c4cef6000b44e7a8d2ef54e5615d6e, type: 3}
+  - {fileID: 21300000, guid: d1bc65b82427476d860b8a5eb7061dfe, type: 3}
+  - {fileID: 21300000, guid: 6964c48cf63542bd85be35f6f87ceab7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - en_opening_sentence_AirBalloon
+  - en_opening_sentence_JanjanFishing
+  - en_opening_sentence_HundredChallenge
+  - en_opening_sentence_HomeRunDerby
+  - en_opening_sentence_EveryoneKeeper
+  - en_opening_sentence_FlyingHammer
+  - en_opening_sentence_ColorfulShoot
+  - en_opening_sentence_TreasureCatcher
+  - en_opening_sentence_CoinDrop
+  - en_opening_sentence_ClimbWall
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas_GameOpening_DLC3_EN
+  m_IsVariant: 0

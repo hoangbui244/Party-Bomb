@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb8d41d54eeaf81489837616ed93e653, type: 3}
+  m_Name: "Shuriken_TargetConfig"
+  m_EditorClassIdentifier: 
+  showEulerAnglesX: 0
+  showDuration: 0.25
+  hideEulerAnglesX: 90
+  hideDuration: 0.1
+  showTime: 12
+  showTimeRange: 5
+  minShowDelayTime: 0.5
+  maxShowDelayTime: 0.5
+  score: 100

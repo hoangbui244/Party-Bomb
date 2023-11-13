@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6b56e35a146ea23c2d063164f3982f, type: 3}
+  m_Name: "Shuriken_DisplayShurikenConfig"
+  m_EditorClassIdentifier: 
+  displayShurikenPosition:
+  - {x: -0.375, y: 0, z: 0}
+  - {x: -0.125, y: 0, z: 0}
+  - {x: 0.125, y: 0, z: 0}
+  - {x: 0.375, y: 0, z: 0}
+  popupBasePosition: -0.5
+  shurikenMaterials:
+  - {fileID: 2100000, guid: d9ba061fd34a430588899795ac834c71, type: 2}
+  - {fileID: 2100000, guid: 9a780be362044502937b09e0e3218561, type: 2}
+  - {fileID: 2100000, guid: a07113eae23248bba835773cefef2273, type: 2}
+  - {fileID: 2100000, guid: f9916f6d8a174b63858054064c408a30, type: 2}
+  - {fileID: 2100000, guid: ac9ac30c48654ec78529872aed001c96, type: 2}
+  - {fileID: 2100000, guid: 8ffff506aade4fedbd166d775a46a9f7, type: 2}
+  - {fileID: 2100000, guid: 0aa40dbe6ae5414a888779737ba804b0, type: 2}
+  - {fileID: 2100000, guid: 0052eb6cd8f8448081a945f7db12e62d, type: 2}

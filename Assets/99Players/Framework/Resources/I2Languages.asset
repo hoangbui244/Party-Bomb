@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Controls
+      TermType: 0
+      Description: 
+      Languages:
+      - Controls
+      - "\u64CD\u4F5C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: StartGameRule_GetBall
+      TermType: 0
+      Description: 
+      Languages:
+      - Move the ball to your own goal!
+      - "\u30DC\u30FC\u30EB\u3092\u81EA\u5206\u306E\u30B4\u30FC\u30EB\u306B\u904B\u307C\u3046!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: DefeatTip
+      TermType: 0
+      Description: 
+      Languages:
+      - A little more persistence a little more effort, and what seemed hopeless
+        failure may turn to glorious success.
+      - A little more persistence a little more effort, and what seemed hopeless
+        failure may turn to glorious success. [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GameRule_GetBall
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Push the ball to move it toward your goal.
+
+        Balls that are other
+        players'' colors give you lots of points!'
+      - 'Push the ball to move it toward your goal.
+
+        Balls that are other
+        players'' colors give you lots of points! [JP]'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Title_GameSettings
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Settings
+      - Game Settings [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_MusicVolume
+      TermType: 0
+      Description: 
+      Languages:
+      - Music Volume
+      - "\u97F3\u91CF"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_SfxVolume
+      TermType: 0
+      Description: 
+      Languages:
+      - SFX Volume
+      - "\u97F3\u91CF"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_VoiceVolume
+      TermType: 0
+      Description: 
+      Languages:
+      - Voice Volume
+      - "\u97F3\u91CF"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Back
+      TermType: 0
+      Description: 
+      Languages:
+      - BACK
+      - "\u3082\u3069\u308B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Close
+      TermType: 0
+      Description: 
+      Languages:
+      - CLOSE
+      - "\u3068\u3058\u308B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Comfirm
+      TermType: 0
+      Description: 
+      Languages:
+      - COMFIRM
+      - COMFIRM [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_FreeMode
+      TermType: 0
+      Description: 
+      Languages:
+      - Free Mode
+      - "\u30D5\u30EA\u30FC\u30E2\u30FC\u30C9"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Multi
+      TermType: 0
+      Description: 
+      Languages:
+      - Multi
+      - Multi [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Next
+      TermType: 0
+      Description: 
+      Languages:
+      - NEXT
+      - "\u3064\u304E\u3078"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_No
+      TermType: 0
+      Description: 
+      Languages:
+      - NO
+      - "\u3044\u3044\u3048"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_PartyMode
+      TermType: 0
+      Description: 
+      Languages:
+      - Party Mode
+      - "\u30D0\u30FC\u30C6\u30A3\u30FC\u30E2\u30FC\u30C9"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Retry
+      TermType: 0
+      Description: 
+      Languages:
+      - RETRY
+      - "\u30EA\u30C8\u30E9\u30A4"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_SelectParty
+      TermType: 0
+      Description: 
+      Languages:
+      - SELECT PARTY
+      - SELECT PARTY [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Single
+      TermType: 0
+      Description: 
+      Languages:
+      - Single
+      - Single [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Yes
+      TermType: 0
+      Description: 
+      Languages:
+      - YES
+      - "\u306F\u3044"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Title_Controls
+      TermType: 0
+      Description: 
+      Languages:
+      - Controls
+      - Controls [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Title_ModeSelect
+      TermType: 0
+      Description: 
+      Languages:
+      - Mode Select
+      - Mode Select [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Title_SelectPlayers
+      TermType: 0
+      Description: 
+      Languages:
+      - Select Players
+      - Select Players [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Random
+      TermType: 0
+      Description: 
+      Languages:
+      - RANDOM
+      - RANDOM [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Button_Skip
+      TermType: 0
+      Description: 
+      Languages:
+      - SKIP
+      - "\u30B9\u30AD\u30C3\u30D7"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_CpuStrength
+      TermType: 0
+      Description: 
+      Languages:
+      - CPU Strength
+      - "\u306E\u5F37\u3055"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_Vibration
+      TermType: 0
+      Description: 
+      Languages:
+      - Vibration
+      - "\u632F\u52D5"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_CharacterCount
+      TermType: 0
+      Description: 
+      Languages:
+      - Character Count
+      - "\u30AD\u30E3\u30E9\u30BF\u30FC\u53C2\u52A0\u6570"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_Weak
+      TermType: 0
+      Description: 
+      Languages:
+      - Weak
+      - Weak [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_Normal
+      TermType: 0
+      Description: 
+      Languages:
+      - Normal
+      - "\u666E\u901A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Text_Strong
+      TermType: 0
+      Description: 
+      Languages:
+      - Strong
+      - Strong [JP]
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Caption_MusicVolume
+      TermType: 0
+      Description: 
+      Languages:
+      - Adjust the volume of the music
+      - "\u30B2\u30FC\u30E0\u4E2D\u306E\u97F3\u697D\u306E\u97F3\u91CF\u8A2D\u5B9A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Caption_SfxVolume
+      TermType: 0
+      Description: 
+      Languages:
+      - Adjust the volume of the sound effects
+      - "\u30B2\u30FC\u30E0\u4E2D\u306E\u52B9\u679C\u97F3\u306E\u97F3\u91CF\u8A2D\u5B9A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Caption_VoiceVolume
+      TermType: 0
+      Description: 
+      Languages:
+      - Adjust the volume of the characters' voices
+      - "\u30B2\u30FC\u30E0\u4E2D\u306E\u30DC\u30A4\u30B9\u306E\u97F3\u91CF\u8A2D\u5B9A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Caption_CpuStrength
+      TermType: 0
+      Description: 
+      Languages:
+      - Adjust the CPU's difficulty
+      - "CPU\u306E\u5F37\u3055\u306E\u8A2D\u5B9A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Caption_Vibration
+      TermType: 0
+      Description: 
+      Languages:
+      - Adjust the vibration settings
+      - "\u30B2\u30FC\u30E0\u4E2D\u306E\u632F\u52D5\u8A2D\u5B9A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Caption_CharacterCount
+      TermType: 0
+      Description: 
+      Languages:
+      - Set the number of characters in each event
+      - "\u4E00\u90E8\u7AF6\u6280\u306E\u30AD\u30E3\u30E9\u306E\u6570\u306E\u8A2D\u5B9A"
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
+    Spreadsheet_SortRows: 1

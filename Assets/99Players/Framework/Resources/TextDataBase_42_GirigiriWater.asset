@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0328383ce7a068bf05c5acbf5b7983a8, type: 3}
+  m_Name: "TextDataBase_42_GirigiriWater"
+  m_EditorClassIdentifier: 
+  Entities:
+  - id: 0
+    text: "\u6C34\u3092\u5165\u308C\u308B"
+  - id: 1
+    text: "\u5165\u308C\u305F\u6C34\u91CF"
+  - id: 2
+    text: "\u3053\u3053\u307E\u3067\u306F\u5165\u308C\u3088\u3046!"
+  - id: 3
+    text: 
+  - id: 4
+    text: 
+  - id: 5
+    text: 
+  - id: 6
+    text: 
+  - id: 7
+    text: 
+  - id: 8
+    text: 
+  - id: 9
+    text: 
+  - id: 10
+    text: 
+  - id: 11
+    text: 
+  - id: 12
+    text: 
+  - id: 13
+    text: 
+  - id: 14
+    text: 
+  - id: 15
+    text: "\u30BF\u30B0\u30C6\u30B9\u30C8<number_0>P\u3067\u89E3\u653E"
+  - id: 16
+    text: "<name_0>\u3092\u904A\u3076\uFF1F"
+  - id: 17
+    text: 
+  - id: 18
+    text: 
+  - id: 19
+    text: 
+  - id: 20
+    text: 
+  - id: 21
+    text: 

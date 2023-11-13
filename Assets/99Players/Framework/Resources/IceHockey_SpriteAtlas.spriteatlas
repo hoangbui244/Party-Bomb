@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IceHockey_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: cdaff8984c954091a9c23f8f8291c54b, type: 3}
+    - {fileID: 21300000, guid: 14cbd7b485c44cf9b568fa127436c370, type: 3}
+    - {fileID: 21300000, guid: ff7009e0547e47feaa723655a9daea15, type: 3}
+    - {fileID: 21300000, guid: 3d17478ebe664acf846fd6e989c9b5d1, type: 3}
+    - {fileID: 21300000, guid: 5e9e00df8ee94ae5b74592f25358fb7f, type: 3}
+    - {fileID: 21300000, guid: 56a1f016b4e64b61b4c84307c183b38b, type: 3}
+    - {fileID: 21300000, guid: 3868d726589c4fc2b0ae179fa419d7e5, type: 3}
+    - {fileID: 21300000, guid: c056365ddf5049dd9c672148d7631459, type: 3}
+    - {fileID: 21300000, guid: 0ca46b186b01442e87f8805b257eefaa, type: 3}
+    - {fileID: 21300000, guid: 0cb33e30a59748e88666e6ca171780d8, type: 3}
+    - {fileID: 21300000, guid: d7710b714c524757a2ba649d78a71ebb, type: 3}
+    - {fileID: 21300000, guid: cf8bf2122795471ba733e86f9caa196b, type: 3}
+    - {fileID: 21300000, guid: 2db19cda599a4178b9a85dd5e30e0962, type: 3}
+    - {fileID: 21300000, guid: 6984a5573fc94429b2d8571cfe55242b, type: 3}
+    - {fileID: 21300000, guid: 5f706c2c3e2845cc85b203705e6dbca8, type: 3}
+    - {fileID: 21300000, guid: 267c49ca24f34c03907dc9c33617d49a, type: 3}
+    - {fileID: 21300000, guid: 7ef2562d4c7040dc9ca136561adfda2a, type: 3}
+    - {fileID: 21300000, guid: 3e8aa934a4134d1698aefcd8d48b7e74, type: 3}
+    - {fileID: 21300000, guid: 6deaa1ef105a476a90395a3483eeb2f6, type: 3}
+    - {fileID: 21300000, guid: 0afe3fcdcf554e2a9d3e6a7783333ced, type: 3}
+    - {fileID: 21300000, guid: 8d0713af55c24677b24d7a401d23ba71, type: 3}
+    - {fileID: 21300000, guid: 53fd48778ea94f91ae9e04e74f9ad440, type: 3}
+    - {fileID: 21300000, guid: c4fe3c6026404d3890e1a3ddb9ce5ad1, type: 3}
+    - {fileID: 21300000, guid: 44d463a1e3c34ca7806ed62d4eaa9393, type: 3}
+    - {fileID: 21300000, guid: 0de761072a8b47f4afcf5f462b6c6ceb, type: 3}
+    - {fileID: 21300000, guid: 7eedd74e0dcd4b3683a7f43aa51e93ab, type: 3}
+    - {fileID: 21300000, guid: 57d5f97554d743cba4d0906c5d3ed91a, type: 3}
+    - {fileID: 21300000, guid: 07a3a54be9334baf9d6292598872098e, type: 3}
+    - {fileID: 21300000, guid: a602df85002b46c688106e244caa032d, type: 3}
+    - {fileID: 21300000, guid: 8b2b313b508e4ffc984e81e896faebef, type: 3}
+    - {fileID: 21300000, guid: 25a32bb2badb4008a983c3ae34d4873d, type: 3}
+    - {fileID: 21300000, guid: fc5a705b5e204f5d986699e5be2258e3, type: 3}
+    - {fileID: 21300000, guid: b74aa721d96649f5804c6ca0185a9038, type: 3}
+    - {fileID: 21300000, guid: 4dfa1c71b45f4296b7d4af97510aaa13, type: 3}
+    - {fileID: 21300000, guid: ab09077bcec04d24ad8b71db7378ec88, type: 3}
+    - {fileID: 21300000, guid: c7d60db2cf5247b5943bc2a7d2658851, type: 3}
+    - {fileID: 21300000, guid: adbdec9a44f74b2786b3d312770cb625, type: 3}
+    - {fileID: 21300000, guid: 68652809795c4ec78a86b51858725565, type: 3}
+    - {fileID: 21300000, guid: db23c652f9f845f194caef4a67791bea, type: 3}
+    - {fileID: 21300000, guid: 744b79c2dfef4d9fbeed92f8d3ecd996, type: 3}
+    - {fileID: 21300000, guid: fd772c5ce2ee4421b86319fa1de84bcf, type: 3}
+    - {fileID: 21300000, guid: 7e474df9135c41ef8ff66070b65c57b1, type: 3}
+    - {fileID: 21300000, guid: 2ea6d17c9b6b49388d7add963dfb63ff, type: 3}
+    - {fileID: 21300000, guid: dc849499042e4aceacd8bb09e5aee842, type: 3}
+    - {fileID: 21300000, guid: 5ad80be491674233b6632fa3eaf1c65b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0cb33e30a59748e88666e6ca171780d8, type: 3}
+  - {fileID: 21300000, guid: c4fe3c6026404d3890e1a3ddb9ce5ad1, type: 3}
+  - {fileID: 21300000, guid: ff7009e0547e47feaa723655a9daea15, type: 3}
+  - {fileID: 21300000, guid: b74aa721d96649f5804c6ca0185a9038, type: 3}
+  - {fileID: 21300000, guid: d7710b714c524757a2ba649d78a71ebb, type: 3}
+  - {fileID: 21300000, guid: 4dfa1c71b45f4296b7d4af97510aaa13, type: 3}
+  - {fileID: 21300000, guid: 44d463a1e3c34ca7806ed62d4eaa9393, type: 3}
+  - {fileID: 21300000, guid: cf8bf2122795471ba733e86f9caa196b, type: 3}
+  - {fileID: 21300000, guid: db23c652f9f845f194caef4a67791bea, type: 3}
+  - {fileID: 21300000, guid: 25a32bb2badb4008a983c3ae34d4873d, type: 3}
+  - {fileID: 21300000, guid: c7d60db2cf5247b5943bc2a7d2658851, type: 3}
+  - {fileID: 21300000, guid: 744b79c2dfef4d9fbeed92f8d3ecd996, type: 3}
+  - {fileID: 21300000, guid: 3e8aa934a4134d1698aefcd8d48b7e74, type: 3}
+  - {fileID: 21300000, guid: 14cbd7b485c44cf9b568fa127436c370, type: 3}
+  - {fileID: 21300000, guid: 5ad80be491674233b6632fa3eaf1c65b, type: 3}
+  - {fileID: 21300000, guid: 57d5f97554d743cba4d0906c5d3ed91a, type: 3}
+  - {fileID: 21300000, guid: a602df85002b46c688106e244caa032d, type: 3}
+  - {fileID: 21300000, guid: 56a1f016b4e64b61b4c84307c183b38b, type: 3}
+  - {fileID: 21300000, guid: 3868d726589c4fc2b0ae179fa419d7e5, type: 3}
+  - {fileID: 21300000, guid: 0de761072a8b47f4afcf5f462b6c6ceb, type: 3}
+  - {fileID: 21300000, guid: 6984a5573fc94429b2d8571cfe55242b, type: 3}
+  - {fileID: 21300000, guid: 53fd48778ea94f91ae9e04e74f9ad440, type: 3}
+  - {fileID: 21300000, guid: 0ca46b186b01442e87f8805b257eefaa, type: 3}
+  - {fileID: 21300000, guid: cdaff8984c954091a9c23f8f8291c54b, type: 3}
+  - {fileID: 21300000, guid: 68652809795c4ec78a86b51858725565, type: 3}
+  - {fileID: 21300000, guid: dc849499042e4aceacd8bb09e5aee842, type: 3}
+  - {fileID: 21300000, guid: 7e474df9135c41ef8ff66070b65c57b1, type: 3}
+  - {fileID: 21300000, guid: adbdec9a44f74b2786b3d312770cb625, type: 3}
+  - {fileID: 21300000, guid: 267c49ca24f34c03907dc9c33617d49a, type: 3}
+  - {fileID: 21300000, guid: 2db19cda599a4178b9a85dd5e30e0962, type: 3}
+  - {fileID: 21300000, guid: 8b2b313b508e4ffc984e81e896faebef, type: 3}
+  - {fileID: 21300000, guid: 07a3a54be9334baf9d6292598872098e, type: 3}
+  - {fileID: 21300000, guid: fc5a705b5e204f5d986699e5be2258e3, type: 3}
+  - {fileID: 21300000, guid: ab09077bcec04d24ad8b71db7378ec88, type: 3}
+  - {fileID: 21300000, guid: 5f706c2c3e2845cc85b203705e6dbca8, type: 3}
+  - {fileID: 21300000, guid: fd772c5ce2ee4421b86319fa1de84bcf, type: 3}
+  - {fileID: 21300000, guid: 2ea6d17c9b6b49388d7add963dfb63ff, type: 3}
+  - {fileID: 21300000, guid: 7ef2562d4c7040dc9ca136561adfda2a, type: 3}
+  - {fileID: 21300000, guid: c056365ddf5049dd9c672148d7631459, type: 3}
+  - {fileID: 21300000, guid: 0afe3fcdcf554e2a9d3e6a7783333ced, type: 3}
+  - {fileID: 21300000, guid: 7eedd74e0dcd4b3683a7f43aa51e93ab, type: 3}
+  - {fileID: 21300000, guid: 3d17478ebe664acf846fd6e989c9b5d1, type: 3}
+  - {fileID: 21300000, guid: 8d0713af55c24677b24d7a401d23ba71, type: 3}
+  - {fileID: 21300000, guid: 5e9e00df8ee94ae5b74592f25358fb7f, type: 3}
+  - {fileID: 21300000, guid: 6deaa1ef105a476a90395a3483eeb2f6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - name_score_underlay
+  - quest_frame_00
+  - _face_off
+  - 3p_team
+  - ice_4p_color_underlay
+  - en_play_A_team
+  - en_3rd_period
+  - _play_B_team
+  - _common_c_cpu
+  - _period_end
+  - ice_6p_color_underlay
+  - ice_score_underlay
+  - 2p_team
+  - _common_c_cpu1
+  - underlay_stamina_gauge
+  - _1st_period
+  - _common_c_1P
+  - _play_A_team
+  - _common_c_3P
+  - 4p_team
+  - bg_white_gauge
+  - ice_8p_color_underlay
+  - _common_c_cpu3
+  - _common_c_cpu2
+  - _common_c_cpu4
+  - _3rd_period
+  - ice_7p_color_underlay
+  - en_1st_period
+  - 1p_team
+  - _basketball_goal_white
+  - ice_5p_color_underlay
+  - _common_c_4P
+  - ice_3p_color_underlay
+  - _2nd_period
+  - en_face_off
+  - en_play_B_team
+  - period_underlay
+  - ice_1p_color_underlay
+  - _basketball_goal_orange
+  - en_period_end
+  - _common_c_cpu5
+  - ice_2p_color_underlay
+  - en_2nd_period
+  - time_underlay
+  - _common_c_2P
+  m_RenderDataMap: {}
+  m_Tag: IceHockey_SpriteAtlas
+  m_IsVariant: 0

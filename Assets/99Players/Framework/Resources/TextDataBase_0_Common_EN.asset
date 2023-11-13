@@ -1,0 +1,1256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef69f215d22ca2e15aecf9a9363531c1, type: 3}
+  m_Name: "TextDataBase_0_Common_EN"
+  m_EditorClassIdentifier: 
+  Entities:
+  - id: 0
+    text: "Throwing Star"
+  - id: 1
+    text: "Water-Walking"
+  - id: 2
+    text: "Vanishing"
+  - id: 3
+    text: "Grappling Hook"
+  - id: 4
+    text: "Ninja Sword"
+  - id: 5
+    text: "Transformation"
+  - id: 6
+    text: "Hand Signal"
+  - id: 7
+    text: "Flying Squirrel"
+  - id: 8
+    text: "Blowpipe"
+  - id: 9
+    text: "High-Speed"
+  - id: 10
+    text: 
+  - id: 11
+    text: 
+  - id: 12
+    text: 
+  - id: 13
+    text: 
+  - id: 14
+    text: 
+  - id: 15
+    text: 
+  - id: 16
+    text: 
+  - id: 17
+    text: "\u30D7\u30EC\u30A4\u4EBA\u6570:<number_0>\u4EBA"
+  - id: 18
+    text: "\u5404\u30C1\u30FC\u30E0\u306E\u4E0A\u9650\u306F2\u4EBA\u3067\u3059"
+  - id: 19
+    text: "\u5404\u30C1\u30FC\u30E0\u306B\u6700\u4F4E1\u4EBA\u5FC5\u8981\u3067\u3059"
+  - id: 20
+    text: 
+  - id: 21
+    text: 
+  - id: 22
+    text: "\u8FFD\u52A0\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u8CFC\u5165\u3059\u308B\u3068\n\u904A\u3076\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+  - id: 23
+    text: "\u8FFD\u52A0\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u8CFC\u5165\u3059\u308B\u3068\n\u9078\u629E\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+  - id: 24
+    text: "Anticipate your opponent's moves to win!"
+  - id: 25
+    text: "Rain arrows on the enemies and defend your fort!"
+  - id: 26
+    text: "Be the one who pulls the legendary sword free!"
+  - id: 27
+    text: "Be the fastest monster rider and win the race!"
+  - id: 28
+    text: "Let's concoct the best potion ever!"
+  - id: 29
+    text: "Keep wiping out the monsters when they appear!"
+  - id: 30
+    text: "Forge powerful weapons to use on your adventure!"
+  - id: 31
+    text: "Carry items and aim to be a great merchant!"
+  - id: 32
+    text: "Ride a dragon and engage in aerial combat!"
+  - id: 33
+    text: "It's time to settle things! An arena showdown!"
+  - id: 34
+    text: 
+  - id: 35
+    text: 
+  - id: 36
+    text: 
+  - id: 37
+    text: 
+  - id: 38
+    text: 
+  - id: 39
+    text: "Return to the\nmode selection screen?"
+  - id: 40
+    text: 
+  - id: 41
+    text: 
+  - id: 42
+    text: 
+  - id: 43
+    text: 
+  - id: 44
+    text: 
+  - id: 45
+    text: 
+  - id: 46
+    text: 
+  - id: 47
+    text: 
+  - id: 48
+    text: 
+  - id: 49
+    text: 
+  - id: 50
+    text: 
+  - id: 51
+    text: 
+  - id: 52
+    text: 
+  - id: 53
+    text: "Close"
+  - id: 54
+    text: "Return to the\ngame selection screen?"
+  - id: 55
+    text: "Settings will be reset\nto default."
+  - id: 56
+    text: "Yes"
+  - id: 57
+    text: "No"
+  - id: 58
+    text: "Return to the\ngame selection screen?"
+  - id: 59
+    text: "Would you like to try again?"
+  - id: 60
+    text: 
+  - id: 61
+    text: 
+  - id: 62
+    text: 
+  - id: 63
+    text: 
+  - id: 64
+    text: "\u56DE"
+  - id: 65
+    text: "\u500B"
+  - id: 66
+    text: "m"
+  - id: 67
+    text: 
+  - id: 68
+    text: 
+  - id: 69
+    text: "Win a game of <color=#FFF000>Jousting<color=white> against a Weak
+    CPU"
+  - id: 70
+    text: "Win a game of <color=#FFF000>Jousting<color=white> against a Normal
+    CPU"
+  - id: 71
+    text: "Win a game of <color=#FFF000>Jousting<color=white> against a Strong
+    CPU"
+  - id: 72
+    text: "Score 4000 points or more in <color=#FFF000>Arrow Defense<color=white>"
+  - id: 73
+    text: "Score 5000 points or more in <color=#FFF000>Arrow Defense<color=white>"
+  - id: 74
+    text: "Score 6000 points or more in <color=#FFF000>Arrow Defense<color=white>"
+  - id: 75
+    text: "Win a game of <color=#FFF000>Legendary Sword<color=white> against
+    a Weak CPU"
+  - id: 76
+    text: "Win a game of <color=#FFF000>Legendary Sword<color=white> against
+    a Normal CPU"
+  - id: 77
+    text: "Win a game of <color=#FFF000>Legendary Sword<color=white> against
+    a Strong CPU"
+  - id: 78
+    text: "Cross the finish line in <color=#FFF000>Monster Race<color=white>
+    in 2 minutes and 10 seconds or less"
+  - id: 79
+    text: "Cross the finish line in <color=#FFF000>Monster Race<color=white>
+    in 2 minutes or less"
+  - id: 80
+    text: "Cross the finish line in <color=#FFF000>Monster Race<color=white>
+    in 1 minutes and 50 seconds or less"
+  - id: 81
+    text: "Score 2000 points or more in <color=#FFF000>Potion Making<color=white>"
+  - id: 82
+    text: "Score 3000 points or more in <color=#FFF000>Potion Making<color=white>"
+  - id: 83
+    text: "Score 4000 points or more in <color=#FFF000>Potion Making<color=white>"
+  - id: 84
+    text: "Score 4500 points or more in <color=#FFF000>Monster Slayer<color=white>"
+  - id: 85
+    text: "Score 5500 points or more in <color=#FFF000>Monster Slayer<color=white>"
+  - id: 86
+    text: "Score 6500 points or more in <color=#FFF000>Monster Slayer<color=white>"
+  - id: 87
+    text: "Make 8 swords or more in <color=#FFF000>Blacksmithing<color=white>"
+  - id: 88
+    text: "Make 10 swords or more in <color=#FFF000>Blacksmithing<color=white>"
+  - id: 89
+    text: "Make 12 swords or more in <color=#FFF000>Blacksmithing<color=white>"
+  - id: 90
+    text: "Score 4000 points or more in <color=#FFF000>Item Hoarder<color=white>"
+  - id: 91
+    text: "Score 4500 points or more in <color=#FFF000>Item Hoarder<color=white>"
+  - id: 92
+    text: "Score 6000 points or more in <color=#FFF000>Item Hoarder<color=white>"
+  - id: 93
+    text: "Win a game of <color=#FFF000>Dragon Shooter<color=white> against
+    a Weak CPU"
+  - id: 94
+    text: "Win a game of <color=#FFF000>Dragon Shooter<color=white> against
+    a Normal CPU"
+  - id: 95
+    text: "Win a game of <color=#FFF000>Dragon Shooter<color=white> against
+    a Strong CPU"
+  - id: 96
+    text: "Win a game of <color=#FFF000>Battle Coliseum<color=white> against
+    a Weak CPU"
+  - id: 97
+    text: "Win a game of <color=#FFF000>Battle Coliseum<color=white> against
+    a Normal CPU"
+  - id: 98
+    text: "Win a game of <color=#FFF000>Battle Coliseum<color=white> against
+    a Strong CPU"
+  - id: 99
+    text: 
+  - id: 100
+    text: 
+  - id: 101
+    text: 
+  - id: 102
+    text: 
+  - id: 103
+    text: 
+  - id: 104
+    text: 
+  - id: 105
+    text: 
+  - id: 106
+    text: 
+  - id: 107
+    text: 
+  - id: 108
+    text: "Clear by collecting all <color=#FFF000>Bronze<color=white> coins"
+  - id: 109
+    text: "Clear by collecting all <color=#FFF000>Silver<color=white> coins"
+  - id: 110
+    text: "Clear by collecting all <color=#FFF000>Gold<color=white> coins"
+  - id: 111
+    text: 
+  - id: 112
+    text: 
+  - id: 113
+    text: 
+  - id: 114
+    text: 
+  - id: 115
+    text: 
+  - id: 116
+    text: 
+  - id: 117
+    text: 
+  - id: 118
+    text: 
+  - id: 119
+    text: "\u767D\u7D44"
+  - id: 120
+    text: "\u8D64\u7D44"
+  - id: 121
+    text: 
+  - id: 122
+    text: 
+  - id: 123
+    text: 
+  - id: 124
+    text: 
+  - id: 125
+    text: 
+  - id: 126
+    text: "\u306F\u3058\u3081\u307E\u3057\u3066\uFF01\n\u30DC\u30AF\u3089\u306E\u30B9\u30AF\u30FC\u30EB\u30D0\u30C8\u30EB\u306E\n\u4E16\u754C\u3078\u3088\u3046\u3053\u305D\uFF01"
+  - id: 127
+    text: "\u3053\u3053\u306F\u30DC\u30AF\u305F\u3061\u306E\u5B66\u6821\u3060\u3088\n\u8272\u3005\u306A\u904A\u3073\u304C\u3042\u308B\u3093\u3060\uFF01\n\u541B\u3082\u4E00\u7DD2\u306B\u904A\u307C\u3046\uFF01"
+  - id: 128
+    text: "\u307E\u305A\u306F\u6700\u521D\u306B\n\u30D6\u30E9\u30F3\u30B3\u304B\u3089\u9774\u3092\u98DB\u3070\u3059\n\u3010\u9774\u30C8\u30D0\u30B7\u3011\u3092\u3084\u3063\u3066\u307F\u3088\u3046\uFF01"
+  - id: 129
+    text: 
+  - id: 130
+    text: 
+  - id: 131
+    text: "\u3053\u3053\u3067\u306F\u3001\u904A\u3073\u3067\u3082\u3089\u3063\u305F\n\u30B3\u30EC\u30AF\u30B7\u30E7\u30F3\u30B3\u30A4\u30F3\u3092\n\u898B\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3088"
+  - id: 132
+    text: "\u904A\u3073\u3054\u3068\u306B\u3001\u8272\u3005\u306A\u6761\u4EF6\u3092\n\u30AF\u30EA\u30A2\u3067\u304D\u308B\u3068\u6821\u9577\u304B\u3089\n\u30B3\u30A4\u30F3\u3092\u3082\u3089\u3048\u308B\u3093\u3060\uFF01"
+  - id: 133
+    text: "\u3061\u3087\u3063\u3068\u3080\u305A\u304B\u3057\u3044\n\u6761\u4EF6\u3082\u3042\u308B\u3051\u3069\n\u5168\u90E8\u96C6\u3081\u3066\u307F\u3088\u3046\uFF01"
+  - id: 134
+    text: 
+  - id: 135
+    text: 
+  - id: 136
+    text: "\u4E0A\u624B\u306B\u3067\u304D\u305F\u304B\u306A\uFF1F\n\u6B21\u304B\u3089\u306F\u597D\u304D\u306A\n\u904A\u3073\u3092\u3057\u3066\u307F\u3088\u3046\uFF01"
+  - id: 137
+    text: 
+  - id: 138
+    text: 
+  - id: 139
+    text: "Music Volume"
+  - id: 140
+    text: "SFX Volume"
+  - id: 141
+    text: "Voice Volume"
+  - id: 142
+    text: "CPU Strength"
+  - id: 143
+    text: "Vibration"
+  - id: 144
+    text: "Crown display"
+  - id: 145
+    text: "\u30AD\u30E3\u30E9\u670D\u88C5"
+  - id: 146
+    text: "Character"
+  - id: 147
+    text: "Adjust the volume of the music"
+  - id: 148
+    text: "Adjust the volume of the sound effects"
+  - id: 149
+    text: "Adjust the volume of the characters' voices"
+  - id: 150
+    text: "Adjust the CPU's difficulty"
+  - id: 151
+    text: "Adjust the vibration settings"
+  - id: 152
+    text: "Set the number of characters in each event"
+  - id: 153
+    text: "Toggle crown display in-game"
+  - id: 154
+    text: 
+  - id: 155
+    text: "Weak"
+  - id: 156
+    text: "Normal"
+  - id: 157
+    text: "Strong"
+  - id: 158
+    text: 
+  - id: 159
+    text: "\u591C"
+  - id: 160
+    text: "\u663C"
+  - id: 161
+    text: 
+  - id: 162
+    text: 
+  - id: 163
+    text: 
+  - id: 164
+    text: "\u79C1\u670D"
+  - id: 165
+    text: "\u4F53\u64CD\u670D"
+  - id: 166
+    text: "\u30B8\u30E3\u30FC\u30B8"
+  - id: 167
+    text: "\u30E9\u30F3\u30C0\u30E0"
+  - id: 168
+    text: 
+  - id: 169
+    text: "4"
+  - id: 170
+    text: "6"
+  - id: 171
+    text: 
+  - id: 172
+    text: "\u6700\u9AD8\u30BF\u30A4\u30E0"
+  - id: 173
+    text: "\u6700\u9AD8\u8A18\u9332"
+  - id: 174
+    text: "\u6700\u9AD8\u5230\u9054\u30B9\u30C6\u30FC\u30B8"
+  - id: 175
+    text: "\u4EBA\u629C\u304D"
+  - id: 176
+    text: 
+  - id: 177
+    text: 
+  - id: 178
+    text: "<color=#FFF000>\u5C0F\u821F\u30EC\u30FC\u30B9<color=white>\u306770\u79D2\u4EE5\u5185\u306B\u30B4\u30FC\u30EB"
+  - id: 179
+    text: "<color=#FFF000>\u5C0F\u821F\u30EC\u30FC\u30B9<color=white>\u306760\u79D2\u4EE5\u5185\u306B\u30B4\u30FC\u30EB"
+  - id: 180
+    text: "<color=#FFF000>\u5C0F\u821F\u30EC\u30FC\u30B9<color=white>\u306750\u79D2\u4EE5\u5185\u306B\u30B4\u30FC\u30EB"
+  - id: 181
+    text: "<color=#FFF000>\u77F3\u3051\u308A\u30EC\u30FC\u30B9<color=white>\u3067\u30B3\u30FC\u30B91\u309270\u79D2\u4EE5\u5185\u306B\u30B4\u30FC\u30EB"
+  - id: 182
+    text: "<color=#FFF000>\u77F3\u3051\u308A\u30EC\u30FC\u30B9<color=white>\u3067\u30B3\u30FC\u30B92\u309260\u79D2\u4EE5\u5185\u306B\u30B4\u30FC\u30EB"
+  - id: 183
+    text: "<color=#FFF000>\u77F3\u3051\u308A\u30EC\u30FC\u30B9<color=white>\u3067\u30B3\u30FC\u30B91\u309250\u79D2\u4EE5\u5185\u306B\u30B4\u30FC\u30EB"
+  - id: 184
+    text: "<color=#FFF000>\u5404\u30B2\u30FC\u30E0<color=white>\u306EDLC\u30B3\u30A4\u30F3\u3092\u3059\u3079\u3066\u7372\u5F97"
+  - id: 185
+    text: 
+  - id: 186
+    text: 
+  - id: 187
+    text: "Number of Games (<color=#F24C83>Red<\x2fcolor>)"
+  - id: 188
+    text: "Number of Games (<color=#3E9BD6>Blue<\x2fcolor>)"
+  - id: 189
+    text: "Number of Games (<color=#F9D917>Yellow<\x2fcolor>)"
+  - id: 190
+    text: "Number of Device (<color=#F24C83>Red<\x2fcolor>) Games"
+  - id: 191
+    text: "Number of Device (<color=#3E9BD6>Blue<\x2fcolor>) Games"
+  - id: 192
+    text: "Number of Device (<color=#F9D917>Yellow<\x2fcolor>) Games"
+  - id: 193
+    text: 
+  - id: 194
+    text: 
+  - id: 195
+    text: 
+  - id: 196
+    text: 
+  - id: 197
+    text: 
+  - id: 198
+    text: 
+  - id: 199
+    text: 
+  - id: 200
+    text: "You can customize your game experience from the Settings menu!"
+  - id: 201
+    text: "Check out the Controls Overview to review how to play each game!"
+  - id: 202
+    text: "Up to six players can join in the fun!"
+  - id: 203
+    text: "Guide the ball to your goal!"
+  - id: 204
+    text: "Get a huge bonus with the gold ball!"
+  - id: 205
+    text: "Work together to hit the targets!"
+  - id: 206
+    text: "Aim the cannon carefully to hit multiple targets!"
+  - id: 207
+    text: "Use the wall to move lots of blocks to the goal!"
+  - id: 208
+    text: "Try to figure out how long it takes for blocks to replenish!"
+  - id: 209
+    text: "When you get the bomb, press the buttons to pass it to someone else!"
+  - id: 210
+    text: "Stay calm and press the right buttons quickly!"
+  - id: 211
+    text: "You're an easier target when you have more points!"
+  - id: 212
+    text: "The number of points changes depending on the type of robot!"
+  - id: 213
+    text: "The stage gets smaller as time passes!"
+  - id: 214
+    text: "It's easier to win when you fight in the center of the stage!"
+  - id: 215
+    text: "Hide behind obstacles when you're being targeted!"
+  - id: 216
+    text: "Try to aim for the others from the center of the stage!"
+  - id: 217
+    text: "Keep an eye on the floor's movements as you move around!"
+  - id: 218
+    text: "The floor will move faster and faster!"
+  - id: 219
+    text: "Blocks will fall faster as time passes!"
+  - id: 220
+    text: "Find a safe space and get moving!"
+  - id: 221
+    text: "Stay calm and move the panels!"
+  - id: 222
+    text: "Move your share of the panels!"
+  - id: 223
+    text: "Watch their movements closely when you choose which line to target!"
+  - id: 224
+    text: "Watch carefully and jump at the right time!"
+  - id: 225
+    text: "Check the arrows and press the buttons quickly!"
+  - id: 226
+    text: "Don't be fooled by the arrows' movements!"
+  - id: 227
+    text: "Figure out which obstacles you can jump over!"
+  - id: 228
+    text: "Your score is halved if you're pushed off-screen!"
+  - id: 229
+    text: "The closer you get to the time, the higher your score!"
+  - id: 230
+    text: "Stay focused and measure the time!"
+  - id: 231
+    text: "Try to stay ahead as you move!"
+  - id: 232
+    text: "Guess where the mole will appear next!"
+  - id: 233
+    text: "When balls fall off, more will appear!"
+  - id: 234
+    text: "Some things are easier to put into baskets than others!"
+  - id: 235
+    text: "Jump on the panel to fill the missing part of the equation!"
+  - id: 236
+    text: "Equations will get harder every time!"
+  - id: 237
+    text: "You'll fall if you stand on the panel with the wrong answer!"
+  - id: 238
+    text: "Equations will get harder every time!"
+  - id: 239
+    text: "Analyze the entire field and choose which blocks to switch!"
+  - id: 240
+    text: "Switching blocks with other players takes a little time!"
+  - id: 241
+    text: "Run away when you see your target number!"
+  - id: 242
+    text: "When you see another player's target number, attack them!"
+  - id: 243
+    text: "Keep an eye on how much water's left!"
+  - id: 244
+    text: "Make use of the walls while you fight!"
+  - id: 245
+    text: "Hurry and match your movements with the rotations!"
+  - id: 246
+    text: "Work together so you don't fall!"
+  - id: 247
+    text: "Be sure to stop before you hit a trap!"
+  - id: 248
+    text: "At the end, everyone has to time their jumps together!"
+  - id: 249
+    text: "You can place disks on yellow squares, even if it's not surrounded!"
+  - id: 250
+    text: "Go for the corners!"
+  - id: 251
+    text: "Jump while you're moving to clear obstacles more easily!"
+  - id: 252
+    text: "If you're standing somewhere that's shaking, get moving!"
+  - id: 253
+    text: "Find somewhere you can easily escape to!"
+  - id: 254
+    text: "If you get pushed off-screen, you're out!"
+  - id: 255
+    text: "Push opponents with high scores off-screen!"
+  - id: 256
+    text: "Falling is faster than floating!"
+  - id: 257
+    text: "Find the pipe the balls are coming from!"
+  - id: 258
+    text: "Go after balls with your color first!"
+  - id: 259
+    text: "Keep an eye on the angles of the disks as you move!"
+  - id: 260
+    text: "Figure out how the obstacles are going to fall!"
+  - id: 261
+    text: "Count the robots, then hurry to the correct panel!"
+  - id: 262
+    text: "Don't be fooled by the arrows' movements!"
+  - id: 263
+    text: "Drive behind other cars to cut down wind resistance and speed up!"
+  - id: 264
+    text: "Dodge the oil or you'll slip and struggle to turn!"
+  - id: 265
+    text: "Keep an eye on the conveyor belt and the obstacles as you move!"
+  - id: 266
+    text: "The conveyor belt gets faster and faster!"
+  - id: 267
+    text: "Evade carefully and you'll be able to counter with a punch!"
+  - id: 268
+    text: "Use jab and straight punch combos to pressure your opponent!"
+  - id: 269
+    text: "Watch for rivals turning the bomb!"
+  - id: 270
+    text: "Jump somewhere else when your platform starts to fall!"
+  - id: 271
+    text: "Attack to smash the puck into the goal!"
+  - id: 272
+    text: "Own goals don't change the score!"
+  - id: 273
+    text: "When the block appears in front of your character, slice in the direction
+    of the arrow!"
+  - id: 274
+    text: "The better you time your slice, the higher your score!"
+  - id: 275
+    text: "Stay calm and don't get crushed as you search for a spot!"
+  - id: 276
+    text: "In the second half, the floor shape changes too!"
+  - id: 277
+    text: "You'll temporarily freeze if you get attacked by the robots!"
+  - id: 278
+    text: "Look carefully for the shortest route to the goal!"
+  - id: 279
+    text: 
+  - id: 280
+    text: "Go to the Settings menu to change how many games in Party Mode!"
+  - id: 281
+    text: "Push the ball to move it toward your goal.\nBalls that are other players'
+    colors give you lots of points!"
+  - id: 282
+    text: "Move the crosshairs and hit the targets!\nYou can also hit several
+    targets at the same time."
+  - id: 283
+    text: "Use the wiper to move the blocks to your goal.\nTurning too quickly
+    will scatter the blocks, so be careful!"
+  - id: 284
+    text: "Go after the mole and hit it with your hammer!\nWatch their movements
+    closely when you choose which mole to target."
+  - id: 285
+    text: "When you get a bomb, press the buttons to pass it to another player.\nEach
+    button press reduces the time limit!"
+  - id: 286
+    text: "Catch the falling balls and put them in the pipe with the same color.\nYou'll
+    get more points if the ball is your color! "
+  - id: 287
+    text: 
+  - id: 288
+    text: "Defeat robots to keep the castle walls safe.\nAttacking anything but
+    robots will reduce your points!"
+  - id: 289
+    text: "Bump into other players to knock them off!\nYou'll bounce back if
+    you hit someone hard, so be careful."
+  - id: 290
+    text: "Attack other players to knock them off the screen.\nUse the stage
+    to your advantage and move around!"
+  - id: 291
+    text: "Move around without falling off of the floor!\nThere are different
+    types of floors, so be careful as you jump around."
+  - id: 292
+    text: "Dodge the falling blocks while climbing.\nDon't let the blocks don't
+    crush you!"
+  - id: 293
+    text: "Move the panels to complete the pixel art.\nTry to move your share
+    of the panels smoothly!"
+  - id: 294
+    text: "Step on the line of light coming from the frame.\nThe closer you are
+    to the center of the frame, the higher your score!"
+  - id: 295
+    text: "Shoot each other with your water guns and see who can drench the
+    most people!\nRecharge at the watering hole when you run out of water."
+  - id: 296
+    text: "Survive without falling off the rotating cube.\nWork together and
+    dodge the obstacles so you don't fall!"
+  - id: 297
+    text: "Sync with your partner to reach the goal within the time limit.\nBe
+    sure to stop occasionally to dodge the traps."
+  - id: 298
+    text: "Aim for first place in turnless Reversi.\nAnyone can place disks on
+    yellow squares."
+  - id: 299
+    text: "Jump to dodge the spinning bar!\nThe area where you stand will gradually
+    get smaller and smaller."
+  - id: 300
+    text: "Keep moving to avoid getting pushed off by the blocks.\nWatch out
+    for the red train. It's fast!"
+  - id: 301
+    text: "Collect coins as you skydive!\nYour score will be halved if you're
+    pushed off-screen!"
+  - id: 302
+    text: "Press the button indicated by the arrow!\nThe faster you press the
+    button, the higher your score."
+  - id: 303
+    text: "Put balls in the basket and aim for the target number of points.\nGold
+    balls are worth more points than the others!"
+  - id: 304
+    text: "Answer the set number of equations within the time limit.\nMultiplication
+    is solved first, so stay calm and calculate!"
+  - id: 305
+    text: "Jump onto the panel with the answer within the time limit.\nEven a
+    single fall results in failure, so be careful when you jump!"
+  - id: 306
+    text: "Change the blocks to get more blocks your own color!\nA successful
+    change will also convert the four surrounding blocks to your color."
+  - id: 307
+    text: "Aim for the total value of the three die.\nAttacking another player
+    will deduct their die roll total!"
+  - id: 308
+    text: 
+  - id: 309
+    text: "Jump to dodge the obstacles.\nIf you're pushed off-screen, your score
+    will be halved!"
+  - id: 310
+    text: "Stop the timer at the displayed time.\nThe closer you get, the higher
+    your score!"
+  - id: 311
+    text: "Keep moving and stay on the wobbling disk.\nWatch out for obstacles
+    falling from above!"
+  - id: 312
+    text: "Count the approaching robots and move to the correct panel.\nThe faster
+    you reach the correct panel, the higher you score!"
+  - id: 313
+    text: "Drive like a pro as you race to the goal!\nStay right behind other
+    racers to cut wind resistance."
+  - id: 314
+    text: "Keep moving so the conveyor belt doesn't carry you off-screen.\nWatch
+    out for sudden speed changes!"
+  - id: 315
+    text: "Punch your opponent out of the ring!\nDodge their punches and you
+    can launch a counterattack!"
+  - id: 316
+    text: "Kick the bombs away so they don't explode in your area!\nWatch out
+    for bombs on the ground, too!"
+  - id: 317
+    text: "Kick the puck into the other goal.\nYou can kick it even harder by
+    attacking!"
+  - id: 318
+    text: "Slice the falling blocks in the direction of the arrows.\nThe better
+    your timing, the higher your score!"
+  - id: 319
+    text: "Keep moving so you don't get crushed by the falling blocks!\nWatch
+    out for the transforming floor, too!"
+  - id: 320
+    text: "Find the shortest path to reach your own goal first.\nCarefully evade
+    the patrolling robot attacks as you advance!"
+  - id: 321
+    text: 
+  - id: 322
+    text: 
+  - id: 323
+    text: 
+  - id: 324
+    text: 
+  - id: 325
+    text: 
+  - id: 326
+    text: 
+  - id: 327
+    text: 
+  - id: 328
+    text: 
+  - id: 329
+    text: 
+  - id: 330
+    text: "Skip"
+  - id: 331
+    text: 
+  - id: 332
+    text: 
+  - id: 333
+    text: 
+  - id: 334
+    text: 
+  - id: 335
+    text: 
+  - id: 336
+    text: 
+  - id: 337
+    text: 
+  - id: 338
+    text: 
+  - id: 339
+    text: 
+  - id: 340
+    text: 
+  - id: 341
+    text: 
+  - id: 342
+    text: 
+  - id: 343
+    text: 
+  - id: 344
+    text: 
+  - id: 345
+    text: 
+  - id: 346
+    text: 
+  - id: 347
+    text: 
+  - id: 348
+    text: 
+  - id: 349
+    text: 
+  - id: 350
+    text: 
+  - id: 351
+    text: 
+  - id: 352
+    text: 
+  - id: 353
+    text: 
+  - id: 354
+    text: 
+  - id: 355
+    text: 
+  - id: 356
+    text: 
+  - id: 357
+    text: 
+  - id: 358
+    text: 
+  - id: 359
+    text: 
+  - id: 360
+    text: 
+  - id: 361
+    text: 
+  - id: 362
+    text: 
+  - id: 363
+    text: 
+  - id: 364
+    text: 
+  - id: 365
+    text: 
+  - id: 366
+    text: 
+  - id: 367
+    text: 
+  - id: 368
+    text: 
+  - id: 369
+    text: 
+  - id: 370
+    text: 
+  - id: 371
+    text: 
+  - id: 372
+    text: 
+  - id: 373
+    text: 
+  - id: 374
+    text: 
+  - id: 375
+    text: 
+  - id: 376
+    text: 
+  - id: 377
+    text: 
+  - id: 378
+    text: 
+  - id: 379
+    text: 
+  - id: 380
+    text: 
+  - id: 381
+    text: 
+  - id: 382
+    text: 
+  - id: 383
+    text: 
+  - id: 384
+    text: 
+  - id: 385
+    text: 
+  - id: 386
+    text: 
+  - id: 387
+    text: 
+  - id: 388
+    text: 
+  - id: 389
+    text: 
+  - id: 390
+    text: 
+  - id: 391
+    text: 
+  - id: 392
+    text: 
+  - id: 393
+    text: 
+  - id: 394
+    text: 
+  - id: 395
+    text: 
+  - id: 396
+    text: 
+  - id: 397
+    text: 
+  - id: 398
+    text: 
+  - id: 399
+    text: 
+  - id: 400
+    text: 
+  - id: 401
+    text: 
+  - id: 402
+    text: 
+  - id: 403
+    text: 
+  - id: 404
+    text: 
+  - id: 405
+    text: 
+  - id: 406
+    text: 
+  - id: 407
+    text: 
+  - id: 408
+    text: 
+  - id: 409
+    text: 
+  - id: 410
+    text: 
+  - id: 411
+    text: 
+  - id: 412
+    text: "You'll lose points if your timing isn't just right!"
+  - id: 413
+    text: "Once the bar reaches the edge, your hit count will be reset!"
+  - id: 414
+    text: "How fast your water pours in changes each time!"
+  - id: 415
+    text: "Try pouring in as much water as you can at the beginning!"
+  - id: 416
+    text: "The fewer people remaining, the slower the panels will reappear!"
+  - id: 417
+    text: "Jump across to far away panels!"
+  - id: 418
+    text: "Each course is a different length!"
+  - id: 419
+    text: "Be careful not to fall off the edge!"
+  - id: 420
+    text: "Pick the correct hand gesture as quickly as you can!"
+  - id: 421
+    text: "Sometimes luck isn't on your side in rock-paper-scissors!"
+  - id: 422
+    text: "Try to remember where each card is located!"
+  - id: 423
+    text: "When the cards in play run low, more will appear!"
+  - id: 424
+    text: "You'll get faster every time you land a jump!"
+  - id: 425
+    text: "Be careful where you jump as your speed goes up!"
+  - id: 426
+    text: "Line up the tracks in the right direction!"
+  - id: 427
+    text: "Divide up the work to make a connected path using the tracks!"
+  - id: 428
+    text: "Adjust the direction the ball bounces by moving around!"
+  - id: 429
+    text: "You can also bounce the ball off of other characters' heads!"
+  - id: 430
+    text: "You'll need to deal more attacks to take down bigger robots!"
+  - id: 431
+    text: "Keep an eye on how many players are left!"
+  - id: 432
+    text: "You'll lose points if your timing is off!"
+  - id: 433
+    text: "The timing gauge disappears after a while!"
+  - id: 434
+    text: "You can rotate your character left or right!"
+  - id: 435
+    text: "Aiming gets harder if you rotate too quickly!"
+  - id: 436
+    text: "Lower your opponent's score by changing their cups to your color!"
+  - id: 437
+    text: "Watch carefully and change the color at the right time!"
+  - id: 438
+    text: "Beware of robots falling with the spikes!"
+  - id: 439
+    text: "You'll be knocked back if you jump to a spot with a character on
+    it!"
+  - id: 440
+    text: "Jewels that are farther back are worth more points!"
+  - id: 441
+    text: "Consider the time it takes for the arm to reach!"
+  - id: 442
+    text: "Keep an eye on the table's movements as you put in coins!"
+  - id: 443
+    text: "Up to 4 slots can be stocked!"
+  - id: 444
+    text: "The number of points changes based on the color of the pin!"
+  - id: 445
+    text: "Dash strategically to aim for pins!"
+  - id: 446
+    text: "Keep an eye out for a big fish!"
+  - id: 447
+    text: "If you're not catching anything, change locations!"
+  - id: 448
+    text: "Jump for higher shots!"
+  - id: 449
+    text: "If it looks like you can't reach, dive to grab it!"
+  - id: 450
+    text: "Complete as many balloons as you can!"
+  - id: 451
+    text: "Different balloons need a different amount of air!"
+  - id: 452
+    text: 
+  - id: 453
+    text: 
+  - id: 454
+    text: "Press the button at the right moment to hit the block.\nEarn points
+    by hitting the block a set number of times."
+  - id: 455
+    text: "Fill the cup with water without letting it overflow.\nOnce you finish
+    pouring, it's the next player's turn."
+  - id: 456
+    text: "Survive to the end by jumping between panels before they fall.\nPanels
+    will reappear over time."
+  - id: 457
+    text: "Hit the breaks at just the right moment.\nThe closer you get to the
+    cliff without falling off, the higher your score."
+  - id: 458
+    text: "Follow the prompts to play Rock-Paper-Scissors.\nThe faster you respond,
+    the higher your score."
+  - id: 459
+    text: "Find the matching card.\nThere's no turns in this game, so find the
+    match before your opponent does."
+  - id: 460
+    text: "Jump between ropes at the right time.\nJump a certain number of times
+    before the timer runs out to win."
+  - id: 461
+    text: "Line up the tracks to get the train to the goal.\nThe train can only
+    move forward if the track direction matches up."
+  - id: 462
+    text: "Bounce the ball to break the blocks.\nYou'll lose points if the ball
+    hits the ground."
+  - id: 463
+    text: "Protect the center area from the approaching robots.\nYou'll lose
+    if any robots make it to the center area."
+  - id: 464
+    text: "Swing the bat at just the right time to hit a home run. \nTime it
+    so that you aren't thrown off by speed changes and curve balls. "
+  - id: 465
+    text: "Throw the hammer forward at just the right time. \nYou get a bonus
+    for throwing it farther(70m or more). "
+  - id: 466
+    text: "Throw balls into cups to change as many to your color as you can.
+    \nThe amount of points changes based on the type of cup."
+  - id: 467
+    text: "Tap the button quickly to climb faster. \nWatch out for robots and
+    iron balls as you climb. "
+  - id: 468
+    text: "Reach out your arm at just the right time to grab the jewels. \nJewels
+    that are farther back are worth more points. "
+  - id: 469
+    text: "Knock down coins to earn the target number of points. \nDrop the ball
+    and line up the slots to make it rain coins. "
+  - id: 470
+    text: "Roll the ball to knock down the pins. \nYou can roll the ball harder
+    by dashing. "
+  - id: 471
+    text: "Reel in the fish at just the right time. \nHold the button and cast
+    the line to aim for a fish. "
+  - id: 472
+    text: "Work together to stop shots as they come one after another. \nYou'll
+    need to jump for high shots. "
+  - id: 473
+    text: "Rapidly press the button to fill balloons with air and finish them.
+    \nComplete one balloon and the next will appear. "
+  - id: 474
+    text: 
+  - id: 475
+    text: 
+  - id: 476
+    text: 
+  - id: 477
+    text: 
+  - id: 478
+    text: 
+  - id: 479
+    text: 
+  - id: 480
+    text: 
+  - id: 481
+    text: 
+  - id: 482
+    text: 
+  - id: 483
+    text: 
+  - id: 484
+    text: 
+  - id: 485
+    text: 
+  - id: 486
+    text: 
+  - id: 487
+    text: 
+  - id: 488
+    text: 
+  - id: 489
+    text: 
+  - id: 490
+    text: 
+  - id: 491
+    text: 
+  - id: 492
+    text: 
+  - id: 493
+    text: 
+  - id: 494
+    text: 
+  - id: 495
+    text: 
+  - id: 496
+    text: 
+  - id: 497
+    text: 
+  - id: 498
+    text: 
+  - id: 499
+    text: 
+  - id: 500
+    text: 
+  - id: 501
+    text: 
+  - id: 502
+    text: 
+  - id: 503
+    text: 
+  - id: 504
+    text: 
+  - id: 505
+    text: 
+  - id: 506
+    text: 
+  - id: 507
+    text: 
+  - id: 508
+    text: 
+  - id: 509
+    text: 
+  - id: 510
+    text: 
+  - id: 511
+    text: 
+  - id: 512
+    text: 
+  - id: 513
+    text: 
+  - id: 514
+    text: 
+  - id: 515
+    text: 
+  - id: 516
+    text: 
+  - id: 517
+    text: 
+  - id: 518
+    text: 
+  - id: 519
+    text: 
+  - id: 520
+    text: 
+  - id: 521
+    text: 
+  - id: 522
+    text: 
+  - id: 523
+    text: 
+  - id: 524
+    text: 
+  - id: 525
+    text: 
+  - id: 526
+    text: 
+  - id: 527
+    text: 
+  - id: 528
+    text: 
+  - id: 529
+    text: 
+  - id: 530
+    text: 
+  - id: 531
+    text: 
+  - id: 532
+    text: 
+  - id: 533
+    text: 
+  - id: 534
+    text: 
+  - id: 535
+    text: 
+  - id: 536
+    text: 
+  - id: 537
+    text: 
+  - id: 538
+    text: 
+  - id: 539
+    text: 
+  - id: 540
+    text: 
+  - id: 541
+    text: 
+  - id: 542
+    text: 
+  - id: 543
+    text: 
+  - id: 544
+    text: 
+  - id: 545
+    text: 
+  - id: 546
+    text: 
+  - id: 547
+    text: 
+  - id: 548
+    text: 
+  - id: 549
+    text: 
+  - id: 550
+    text: 
+  - id: 551
+    text: 
+  - id: 552
+    text: 
+  - id: 553
+    text: 
+  - id: 554
+    text: 
+  - id: 555
+    text: 
+  - id: 556
+    text: 
+  - id: 557
+    text: 
+  - id: 558
+    text: 
+  - id: 559
+    text: 
+  - id: 560
+    text: 
+  - id: 561
+    text: 
+  - id: 562
+    text: 
+  - id: 563
+    text: 
+  - id: 564
+    text: 
+  - id: 565
+    text: 
+  - id: 566
+    text: 
+  - id: 567
+    text: 
+  - id: 568
+    text: 
+  - id: 569
+    text: 
+  - id: 570
+    text: 
+  - id: 571
+    text: 
+  - id: 572
+    text: 
+  - id: 573
+    text: 
+  - id: 574
+    text: 
+  - id: 575
+    text: 
+  - id: 576
+    text: 
+  - id: 577
+    text: 
+  - id: 578
+    text: 
+  - id: 579
+    text: 
+  - id: 580
+    text: 
+  - id: 581
+    text: 
+  - id: 999
+    text: "no entry item"

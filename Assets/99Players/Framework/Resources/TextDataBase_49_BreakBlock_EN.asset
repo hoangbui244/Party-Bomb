@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be425a98ff21c503e7dc6cb76f9d018, type: 3}
+  m_Name: "TextDataBase_49_BreakBlock_EN"
+  m_EditorClassIdentifier: 
+  Entities:
+  - id: 0
+    text: "Move"
+  - id: 1
+    text: "Jump"
+  - id: 2
+    text: 
+  - id: 3
+    text: 
+  - id: 4
+    text: 
